@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<RegulatorFacilityCreate xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" mode="Commit" xmlns="http://cersservices.calepa.ca.gov/Schemas/RegulatorFacilityCreate/1/06/">
+  <RegulatorTransactionKey xmlns="">d5985cd7-8df5-46b4-b2bf-328a90b3a1bb</RegulatorTransactionKey>
+  <FacilityID xmlns="">FA0037699</FacilityID>
+  <FacilityRegulatorKey xmlns="">FA0037699</FacilityRegulatorKey>
+  <FacilityName xmlns="">Test facility</FacilityName>
+  <FacilityAddress xmlns="">
+	  <SiteAddress>855 M St #120</SiteAddress>
+    <City>FRESNO</City>
+    <ZipCode>98967-8678</ZipCode>
+  </FacilityAddress>
+  <SubmittalElements xmlns="">
+    <FacilityInformation />
+  </SubmittalElements>
+  <GeographicInformation xmlns="">
+    <CERSPoint>
+      <LatitudeMeasure>0000</LatitudeMeasure>
+      <LongitudeMeasure>0000</LongitudeMeasure>
+      <HorizontalAccuracyMeasure>0</HorizontalAccuracyMeasure>
+      <HorizontalCollectionMethod>101</HorizontalCollectionMethod>
+      <GeographicReferencePoint>101</GeographicReferencePoint>
+      <HorizontalReferenceDatum>WGS84</HorizontalReferenceDatum>
+      <DataCollectionDate>2014-03-19</DataCollectionDate>
+    </CERSPoint>
+  </GeographicInformation>
+  <IgnoreExactDuplicateAddressWarning xmlns="">false</IgnoreExactDuplicateAddressWarning>
+</RegulatorFacilityCreate>

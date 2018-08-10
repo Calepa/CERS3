@@ -1,0 +1,36 @@
+<RegulatorFacilityCreate xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" mode="Trial" xmlns="http://cersservices.calepa.ca.gov/Schemas/RegulatorFacilityCreate/1/05/">
+  <RegulatorTransactionKey xmlns="">2f60a382-1cde-4e9d-98bd-6cf5ae3a7bfe</RegulatorTransactionKey>
+  <FacilityID xmlns="">FA0063026</FacilityID>
+  <FacilityRegulatorKey xmlns="">FA0063026</FacilityRegulatorKey>
+  <EPAID xmlns="">CA8382292929</EPAID>
+  <FacilityName xmlns="">Chevron #112</FacilityName>
+  <FacilityAddress xmlns="">
+    <SiteAddress>4828 N Indianapolis AVE</SiteAddress>
+    <City>DELANO</City>
+    <ZipCode>93215</ZipCode>
+  </FacilityAddress>
+  <SubmittalElements xmlns="">
+    <FacilityInformation />
+    <HazardousMaterialsInventory regulatorCode="1500" reportingRequirement="1" />
+    <EmergencyResponseTrainingPlans regulatorCode="1500" reportingRequirement="1" />
+    <UndergroundStorageTanks regulatorCode="1500" reportingRequirement="1" />
+    <OnsiteHazardousWasteTreatmentNotification regulatorCode="1500" reportingRequirement="1" />
+    <RecyclableMaterialsReport regulatorCode="1500" reportingRequirement="1" />
+    <RemoteWasteConsolidationsAnnualNotification regulatorCode="1500" reportingRequirement="1" />
+    <HWTankClosureCertification regulatorCode="1500" reportingRequirement="1" />
+    <AbovegroundPetroleumStorageTanks regulatorCode="1500" reportingRequirement="1" />
+  </SubmittalElements>
+  <GeographicInformation xmlns="">
+    <CERSPoint>
+      <LatitudeMeasure>0000</LatitudeMeasure>
+      <LongitudeMeasure>0000</LongitudeMeasure>
+      <HorizontalAccuracyMeasure>0</HorizontalAccuracyMeasure>
+      <HorizontalCollectionMethod>101</HorizontalCollectionMethod>
+      <GeographicReferencePoint>101</GeographicReferencePoint>
+      <HorizontalReferenceDatum>WGS84</HorizontalReferenceDatum>
+      <DataCollectionDate>2013-12-02</DataCollectionDate>
+    </CERSPoint>
+  </GeographicInformation>
+  <Comments xmlns="">Testing facility and CE-CL</Comments>
+  <IgnoreExactDuplicateAddressWarning xmlns="">false</IgnoreExactDuplicateAddressWarning>
+</RegulatorFacilityCreate>

@@ -1,0 +1,52 @@
+<cers:RegulatorFacilityQuery xsi:schemaLocation="http://cersservices.calepa.ca.gov/Schemas/RegulatorFacilityQuery/1/05/ http://cersservices.calepa.ca.gov/Schemas/1/05/RegulatorFacilityQuery.xsd" xmlns:cers="http://cersservices.calepa.ca.gov/Schemas/RegulatorFacilityQuery/1/05/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" timeStamp="2014-04-14T20:13:55Z" returnedResultCount="1" totalQueryResultCount="1" transactionKey="82b3de57-f07f-4d00-8343-641e239e868f">
+  <Facility>
+    <CERSID>10215613</CERSID>
+    <RegulatorCode>1500</RegulatorCode>
+    <Name>ARCO #1</Name>
+    <LastSubmittalOn>2014-04-14</LastSubmittalOn>
+    <EstablishedOn>2014-04-14</EstablishedOn>
+    <Organization>
+      <Code>90184921</Code>
+      <Name><![CDATA[ARCO EMPIRE]]></Name>
+      <Headquarters><![CDATA[Delano, CA]]></Headquarters>
+      <FacilityCount>2</FacilityCount>
+      <UserCount>1</UserCount>
+      <LeadRegulatorCode>9900</LeadRegulatorCode>
+      <LastSubmittalOn>2014-04-14</LastSubmittalOn>
+      <Origin>2</Origin>
+    </Organization>
+    <SubmittalElements>
+      <FacilityInformation regulatorCode="1500" reportingRequirement="2" />
+      <HazardousMaterialsInventory regulatorCode="1500" reportingRequirement="2" />
+      <EmergencyResponseTrainingPlans regulatorCode="1500" reportingRequirement="2" />
+      <UndergroundStorageTanks regulatorCode="1500" reportingRequirement="1" />
+      <OnsiteHazardousWasteTreatmentNotification regulatorCode="1500" reportingRequirement="1" />
+      <RecyclableMaterialsReport regulatorCode="1500" reportingRequirement="2" />
+      <RemoteWasteConsolidationsAnnualNotification regulatorCode="1500" reportingRequirement="2" />
+      <HWTankClosureCertification regulatorCode="1500" reportingRequirement="2" />
+      <AbovegroundPetroleumStorageTanks regulatorCode="1500" reportingRequirement="2" />
+      <CaliforniaAccidentalReleasePrevention regulatorCode="1500" reportingRequirement="1" />
+    </SubmittalElements>
+    <FacilityAddress>
+      <SiteAddress><![CDATA[3729 N Maple Ave]]></SiteAddress>
+      <City><![CDATA[Delano]]></City>
+      <ZipCode><![CDATA[93215]]></ZipCode>
+    </FacilityAddress>
+    <StandardizedAddress>
+      <SiteAddress></SiteAddress>
+      <City></City>
+      <ZipCode></ZipCode>
+    </StandardizedAddress>
+    <GeographicInformation>
+      <CERSPoint>
+        <LatitudeMeasure>35.6087900</LatitudeMeasure>
+        <LongitudeMeasure>-119.3470100</LongitudeMeasure>
+        <HorizontalAccuracyMeasure>300.0000</HorizontalAccuracyMeasure>
+        <HorizontalCollectionMethod>101</HorizontalCollectionMethod>
+        <GeographicReferencePoint>102</GeographicReferencePoint>
+        <HorizontalReferenceDatum>WGS84</HorizontalReferenceDatum>
+        <DataCollectionDate>2014-04-14</DataCollectionDate>
+      </CERSPoint>
+    </GeographicInformation>
+  </Facility>
+</cers:RegulatorFacilityQuery>

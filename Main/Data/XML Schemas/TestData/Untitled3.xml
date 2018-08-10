@@ -1,0 +1,2178 @@
+<cers:RegulatorFacilitySubmittals xsi:schemaLocation="http://cersservices.calepa.ca.gov/Schemas/RegulatorFacilitySubmittalQuery/1/05/ http://cersservices.calepa.ca.gov/Schemas/1/05/RegulatorFacilitySubmittalQuery.xsd" xmlns:cers="http://cersservices.calepa.ca.gov/Schemas/RegulatorFacilitySubmittalQuery/1/05/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <DataSetDateTime>2014-04-12T16:29:15Z</DataSetDateTime>
+  <TransactionKey>58d1e1a9-807f-4b60-8a09-ecfda3bae434</TransactionKey>
+  <TransactionStatus>Accepted</TransactionStatus>
+  <FacilitySubmittal>
+    <CERSID>10232704</CERSID>
+    <CERSOrganization>
+      <OrganizationCode>90200878</OrganizationCode>
+      <OrganizationName><![CDATA[DOLE ENTERPRISE INC]]></OrganizationName>
+    </CERSOrganization>
+    <FacilityID />
+    <FacilityRegulatorKey>FA0001724</FacilityRegulatorKey>
+    <FacilityInformation>
+      <SubmittalElementHeader>
+        <SubmittedOn>2014-01-02T07:37:34Z</SubmittedOn>
+        <SubmittedByFirstName><![CDATA[TOM]]></SubmittedByFirstName>
+        <SubmittedByLastName><![CDATA[LADD]]></SubmittedByLastName>
+        <SubmittedByEmail><![CDATA[twladd@AOL.com]]></SubmittedByEmail>
+        <RegulatorCode>1500</RegulatorCode>
+        <SubmittalStatus>2</SubmittalStatus>
+        <SubmittalActionDetails>
+          <SubmittalActionOn></SubmittalActionOn>
+          <SubmittalActionAgentName />
+          <SubmittalActionAgentEmail />
+          <SubmittalActionComments />
+        </SubmittalActionDetails>
+        <CERSUniqueKey>0fefde8d-cd3e-4761-80f3-a520a58c5fba</CERSUniqueKey>
+      </SubmittalElementHeader>
+      <BusinessActivities>
+        <BusinessName><![CDATA[DOLE ENTERPRISE INC]]></BusinessName>
+        <SiteAddress><![CDATA[5800 STATE RD]]></SiteAddress>
+        <City><![CDATA[BAKERSFIELD]]></City>
+        <ZipCode>93308</ZipCode>
+        <CountyID>15</CountyID>
+        <HMOnSite>Y</HMOnSite>
+        <CalARPRegulatedSubstances>N</CalARPRegulatedSubstances>
+        <OwnOrOperateUST>N</OwnOrOperateUST>
+        <OwnOrOperateAPST>N</OwnOrOperateAPST>
+        <HWGenerator>N</HWGenerator>
+        <Recycle>N</Recycle>
+        <OnsiteHWTreatment>N</OnsiteHWTreatment>
+        <FinancialAssurance>N</FinancialAssurance>
+        <RWConsolidationSite>N</RWConsolidationSite>
+        <HWTankClosure>N</HWTankClosure>
+        <RCRALargeQuantityGenerator>N</RCRALargeQuantityGenerator>
+        <HHWCollection>N</HHWCollection>
+        <BizActivitiesRegulatorKey>AD0001206</BizActivitiesRegulatorKey>
+        <CERSUniqueKey>93cdb4dc-b207-4fab-8cdf-5a4cf772009b</CERSUniqueKey>
+      </BusinessActivities>
+      <OwnerOperatorInformation>
+        <BeginningDate>2012-03-01</BeginningDate>
+        <EndingDate>2013-03-01</EndingDate>
+        <Phone>(661) 589-8088</Phone>
+        <SICCode>1311</SICCode>
+        <MailingAddress><![CDATA[12850 ALLEN LN]]></MailingAddress>
+        <MailingAddressCity><![CDATA[BAKERSFIELD]]></MailingAddressCity>
+        <MailingAddressState>CA</MailingAddressState>
+        <MailingAddressZipCode>93312</MailingAddressZipCode>
+        <OperatorName><![CDATA[DOLE ENTERPRISES INC]]></OperatorName>
+        <OperatorPhone>(661) 589-8088</OperatorPhone>
+        <OwnerName><![CDATA[DOLE ENTERPRISE INC]]></OwnerName>
+        <OwnerPhone>(661) 589-8088</OwnerPhone>
+        <OwnerMailAddress><![CDATA[12850 ALLEN LN]]></OwnerMailAddress>
+        <OwnerCity><![CDATA[BAKERSFIELD]]></OwnerCity>
+        <OwnerState>CA</OwnerState>
+        <OwnerZipCode>93312</OwnerZipCode>
+        <OwnerCountry>United States</OwnerCountry>
+        <EContactName><![CDATA[TOM LKDD]]></EContactName>
+        <EContactPhone>661.203.6626</EContactPhone>
+        <EContactMailingAddress><![CDATA[12850 ALLEN LANE]]></EContactMailingAddress>
+        <EContactEmailAddress><![CDATA[TWLADD@AOL.COM]]></EContactEmailAddress>
+        <EContactCity><![CDATA[BAKERSFIELD]]></EContactCity>
+        <EContactState>CA</EContactState>
+        <EContactZipCode>93312</EContactZipCode>
+        <EContactCountry>United States</EContactCountry>
+        <PECName><![CDATA[KAREN DOLE]]></PECName>
+        <PECTitle><![CDATA[OWNER]]></PECTitle>
+        <PECBusinessPhone>(661) 589-8088</PECBusinessPhone>
+        <PEC24HrPhone>(661) 589-8088</PEC24HrPhone>
+        <BillingContactName><![CDATA[DOLE ENTERPRISE INC.]]></BillingContactName>
+        <BillingContactPhone>(661) 589-8088</BillingContactPhone>
+        <BillingAddress><![CDATA[12850 ALLEN LN]]></BillingAddress>
+        <BillingAddressCity><![CDATA[BAKERSFIELD]]></BillingAddressCity>
+        <BillingAddressState>CA</BillingAddressState>
+        <BillingAddressZipCode>93312</BillingAddressZipCode>
+        <BillingAddressCountry>United States</BillingAddressCountry>
+        <AssessorParcelNumber>36421218</AssessorParcelNumber>
+        <NumberOfEmployees>0</NumberOfEmployees>
+        <OwnerOperatorRegulatorKey>OW0000684</OwnerOperatorRegulatorKey>
+        <CERSUniqueKey>06fcc47a-2496-4bb6-8552-4230a5ca9210</CERSUniqueKey>
+      </OwnerOperatorInformation>
+      <GeographicInformation>
+        <CERSPoint>
+          <LatitudeMeasure>35.416</LatitudeMeasure>
+          <LongitudeMeasure>-119.0557</LongitudeMeasure>
+          <HorizontalAccuracyMeasure>50.0000</HorizontalAccuracyMeasure>
+          <HorizontalCollectionMethod>104</HorizontalCollectionMethod>
+          <GeographicReferencePoint>102</GeographicReferencePoint>
+          <HorizontalReferenceDatum>WGS84</HorizontalReferenceDatum>
+          <DataCollectionDate>2014-01-01</DataCollectionDate>
+        </CERSPoint>
+      </GeographicInformation>
+    </FacilityInformation>
+    <HazardousMaterialsInventory>
+      <SubmittalElementHeader>
+        <SubmittedOn>2014-01-02T07:37:34Z</SubmittedOn>
+        <SubmittedByFirstName><![CDATA[TOM]]></SubmittedByFirstName>
+        <SubmittedByLastName><![CDATA[LADD]]></SubmittedByLastName>
+        <SubmittedByEmail><![CDATA[twladd@AOL.com]]></SubmittedByEmail>
+        <RegulatorCode>1500</RegulatorCode>
+        <SubmittalStatus>2</SubmittalStatus>
+        <SubmittalActionDetails>
+          <SubmittalActionOn></SubmittalActionOn>
+          <SubmittalActionAgentName />
+          <SubmittalActionAgentEmail />
+          <SubmittalActionComments />
+        </SubmittalActionDetails>
+        <CERSUniqueKey>bea90f7f-c23b-4ede-a6e1-48a7dbc60c24</CERSUniqueKey>
+      </SubmittalElementHeader>
+      <Chemicals>
+        <Chemical>
+          <ChemicalLocation><![CDATA[Fixed Containers at Site;]]></ChemicalLocation>
+          <CLConfidential>N</CLConfidential>
+          <ChemicalName><![CDATA[CRUDE OIL]]></ChemicalName>
+          <TradeSecret>N</TradeSecret>
+          <CommonName><![CDATA[CRUDE OIL]]></CommonName>
+          <EHS>N</EHS>
+          <CASNumber>68410-00-4</CASNumber>
+          <HMType>a</HMType>
+          <RadioActive>N</RadioActive>
+          <Curies>0</Curies>
+          <PhysicalState>b</PhysicalState>
+          <LargestContainer>31500</LargestContainer>
+          <FHCFire>Y</FHCFire>
+          <FHCReactive>N</FHCReactive>
+          <FHCPressureRelease>N</FHCPressureRelease>
+          <FHCAcuteHealth>N</FHCAcuteHealth>
+          <FHCChronicHealth>N</FHCChronicHealth>
+          <AverageDailyAmount>10500</AverageDailyAmount>
+          <MaximumDailyAmount>16800</MaximumDailyAmount>
+          <Units>a</Units>
+          <DaysOnSite>365</DaysOnSite>
+          <SCAboveGroundTank>Y</SCAboveGroundTank>
+          <SCUnderGroundTank>N</SCUnderGroundTank>
+          <SCTankInsideBuilding>N</SCTankInsideBuilding>
+          <SCSteelDrum>N</SCSteelDrum>
+          <SCPlasticNonMetallicDrum>N</SCPlasticNonMetallicDrum>
+          <SCCan>N</SCCan>
+          <SCCarboy>N</SCCarboy>
+          <SCSilo>N</SCSilo>
+          <SCFiberDrum>N</SCFiberDrum>
+          <SCBag>N</SCBag>
+          <SCBox>N</SCBox>
+          <SCCylinder>N</SCCylinder>
+          <SCGlassBottle>N</SCGlassBottle>
+          <SCPlasticBottle>N</SCPlasticBottle>
+          <SCToteBin>N</SCToteBin>
+          <SCTankTruckTankWagon>N</SCTankTruckTankWagon>
+          <SCTankCarRailCar>N</SCTankCarRailCar>
+          <SCOther><![CDATA[N]]></SCOther>
+          <StoragePressure>a</StoragePressure>
+          <StorageTemperature>a</StorageTemperature>
+          <HC1PercentByWeight>100.00</HC1PercentByWeight>
+          <HC1Name><![CDATA[CRUDE OIL]]></HC1Name>
+          <HC1EHS>N</HC1EHS>
+          <USEPASRSNumber>425009</USEPASRSNumber>
+          <ChemicalRegulatorKey>HZ0024133</ChemicalRegulatorKey>
+          <CERSUniqueKey>2a6c3f82-16e2-4708-9efa-77fe47af1825</CERSUniqueKey>
+        </Chemical>
+        <Chemical>
+          <ChemicalLocation><![CDATA[Fixed Containers at Site;]]></ChemicalLocation>
+          <CLConfidential>N</CLConfidential>
+          <ChemicalName><![CDATA[PROPANE]]></ChemicalName>
+          <TradeSecret>N</TradeSecret>
+          <CommonName><![CDATA[PROPANE]]></CommonName>
+          <EHS>N</EHS>
+          <CASNumber>598-10-7</CASNumber>
+          <PFCodeHazardClass>8</PFCodeHazardClass>
+          <SFCodeHazardClass>7</SFCodeHazardClass>
+          <HMType>a</HMType>
+          <RadioActive>N</RadioActive>
+          <Curies>0</Curies>
+          <PhysicalState>c</PhysicalState>
+          <LargestContainer>500</LargestContainer>
+          <FHCFire>Y</FHCFire>
+          <FHCReactive>N</FHCReactive>
+          <FHCPressureRelease>Y</FHCPressureRelease>
+          <FHCAcuteHealth>N</FHCAcuteHealth>
+          <FHCChronicHealth>N</FHCChronicHealth>
+          <AverageDailyAmount>400</AverageDailyAmount>
+          <MaximumDailyAmount>500</MaximumDailyAmount>
+          <Units>b</Units>
+          <DaysOnSite>365</DaysOnSite>
+          <SCAboveGroundTank>N</SCAboveGroundTank>
+          <SCUnderGroundTank>N</SCUnderGroundTank>
+          <SCTankInsideBuilding>N</SCTankInsideBuilding>
+          <SCSteelDrum>N</SCSteelDrum>
+          <SCPlasticNonMetallicDrum>N</SCPlasticNonMetallicDrum>
+          <SCCan>N</SCCan>
+          <SCCarboy>N</SCCarboy>
+          <SCSilo>N</SCSilo>
+          <SCFiberDrum>N</SCFiberDrum>
+          <SCBag>N</SCBag>
+          <SCBox>N</SCBox>
+          <SCCylinder>Y</SCCylinder>
+          <SCGlassBottle>N</SCGlassBottle>
+          <SCPlasticBottle>N</SCPlasticBottle>
+          <SCToteBin>N</SCToteBin>
+          <SCTankTruckTankWagon>N</SCTankTruckTankWagon>
+          <SCTankCarRailCar>N</SCTankCarRailCar>
+          <SCOther><![CDATA[N]]></SCOther>
+          <StoragePressure>b</StoragePressure>
+          <StorageTemperature>a</StorageTemperature>
+          <HC1PercentByWeight>100.00</HC1PercentByWeight>
+          <HC1Name><![CDATA[PROPANE]]></HC1Name>
+          <HC1EHS>N</HC1EHS>
+          <DOTHazardClassificationID>8</DOTHazardClassificationID>
+          <ChemicalRegulatorKey>HZ0024134</ChemicalRegulatorKey>
+          <CERSUniqueKey>37b0b580-5b4b-4923-9a24-a26f64809f4c</CERSUniqueKey>
+        </Chemical>
+      </Chemicals>
+      <SiteMaps>
+        <SiteMap>
+          <SiteMapDocument>
+            <Attachments>
+              <Attachment>
+                <AttachmentFileName>Facility maps.pdf</AttachmentFileName>
+                <DocumentTitle><![CDATA[Annotated Site Map (Official Use Only)]]></DocumentTitle>
+                <DocumentDescription />
+                <DateAuthored>2014-01-01T08:00:00Z</DateAuthored>
+                <DocumentRegulatorKey>1d707f7d-1ba5-43b5-ad91-843ba62493a6</DocumentRegulatorKey>
+                <CERSUniqueKey>c0f1ad5c-ad9b-44ae-97e4-5cdd507c8281</CERSUniqueKey>
+              </Attachment>
+            </Attachments>
+          </SiteMapDocument>
+        </SiteMap>
+      </SiteMaps>
+    </HazardousMaterialsInventory>
+    <EmergencyResponseTrainingPlans>
+      <SubmittalElementHeader>
+        <SubmittedOn>2014-01-02T07:37:34Z</SubmittedOn>
+        <SubmittedByFirstName><![CDATA[TOM]]></SubmittedByFirstName>
+        <SubmittedByLastName><![CDATA[LADD]]></SubmittedByLastName>
+        <SubmittedByEmail><![CDATA[twladd@AOL.com]]></SubmittedByEmail>
+        <RegulatorCode>1500</RegulatorCode>
+        <SubmittalStatus>2</SubmittalStatus>
+        <SubmittalActionDetails>
+          <SubmittalActionOn></SubmittalActionOn>
+          <SubmittalActionAgentName />
+          <SubmittalActionAgentEmail />
+          <SubmittalActionComments />
+        </SubmittalActionDetails>
+        <CERSUniqueKey>d3d57274-f08f-476d-8661-71bcfd726a32</CERSUniqueKey>
+      </SubmittalElementHeader>
+      <EmergencyResponseContingencyPlans>
+        <EmergencyResponseContingencyPlan>
+          <EmergencyResponseContingencyPlanDocument>
+            <Attachments>
+              <Attachment>
+                <AttachmentFileName>Contingency Plan.pdf</AttachmentFileName>
+                <DocumentTitle><![CDATA[Emergency Response/Contingency Plan]]></DocumentTitle>
+                <DocumentDescription />
+                <DateAuthored>2014-01-01T08:00:00Z</DateAuthored>
+                <DocumentRegulatorKey>d15c8475-8c01-4cce-83d6-c26bc796f08d</DocumentRegulatorKey>
+                <CERSUniqueKey>a3419a20-0d8b-48a6-af12-d69e9fe945b8</CERSUniqueKey>
+              </Attachment>
+            </Attachments>
+          </EmergencyResponseContingencyPlanDocument>
+        </EmergencyResponseContingencyPlan>
+      </EmergencyResponseContingencyPlans>
+      <EmployeeTrainingPlans>
+        <EmployeeTrainingPlan>
+          <EmployeeTrainingPlanDocument>
+            <Attachments>
+              <Attachment>
+                <AttachmentFileName>EMPLOYEE TRAINING PLAN.pdf</AttachmentFileName>
+                <DocumentTitle><![CDATA[Employee Training Plan]]></DocumentTitle>
+                <DocumentDescription />
+                <DateAuthored>2014-01-01T08:00:00Z</DateAuthored>
+                <DocumentRegulatorKey>2a7d098d-c8b6-415f-84e4-2d5f1af9bef5</DocumentRegulatorKey>
+                <CERSUniqueKey>04d6a836-735c-412b-b694-9e8575388b2e</CERSUniqueKey>
+              </Attachment>
+            </Attachments>
+          </EmployeeTrainingPlanDocument>
+        </EmployeeTrainingPlan>
+      </EmployeeTrainingPlans>
+    </EmergencyResponseTrainingPlans>
+  </FacilitySubmittal>
+  <FacilitySubmittal>
+    <CERSID>10233124</CERSID>
+    <CERSOrganization>
+      <OrganizationCode>90200878</OrganizationCode>
+      <OrganizationName><![CDATA[DOLE ENTERPRISE INC]]></OrganizationName>
+    </CERSOrganization>
+    <FacilityID />
+    <FacilityRegulatorKey>FA0002148</FacilityRegulatorKey>
+    <FacilityInformation>
+      <SubmittalElementHeader>
+        <SubmittedOn>2014-01-02T06:49:12Z</SubmittedOn>
+        <SubmittedByFirstName><![CDATA[TOM]]></SubmittedByFirstName>
+        <SubmittedByLastName><![CDATA[LADD]]></SubmittedByLastName>
+        <SubmittedByEmail><![CDATA[twladd@AOL.com]]></SubmittedByEmail>
+        <RegulatorCode>1500</RegulatorCode>
+        <SubmittalStatus>2</SubmittalStatus>
+        <SubmittalActionDetails>
+          <SubmittalActionOn></SubmittalActionOn>
+          <SubmittalActionAgentName />
+          <SubmittalActionAgentEmail />
+          <SubmittalActionComments />
+        </SubmittalActionDetails>
+        <CERSUniqueKey>d623b44b-473b-4338-bd3f-8f369c561727</CERSUniqueKey>
+      </SubmittalElementHeader>
+      <BusinessActivities>
+        <BusinessName><![CDATA[DOLE ENTERPRISE - MATTSON/PORTALS]]></BusinessName>
+        <SiteAddress><![CDATA[T30S R29E SEC 5]]></SiteAddress>
+        <City><![CDATA[BAKERSFIELD]]></City>
+        <ZipCode>93307</ZipCode>
+        <CountyID>15</CountyID>
+        <HMOnSite>Y</HMOnSite>
+        <CalARPRegulatedSubstances>N</CalARPRegulatedSubstances>
+        <OwnOrOperateUST>N</OwnOrOperateUST>
+        <OwnOrOperateAPST>N</OwnOrOperateAPST>
+        <HWGenerator>N</HWGenerator>
+        <Recycle>N</Recycle>
+        <OnsiteHWTreatment>N</OnsiteHWTreatment>
+        <FinancialAssurance>N</FinancialAssurance>
+        <RWConsolidationSite>N</RWConsolidationSite>
+        <HWTankClosure>N</HWTankClosure>
+        <RCRALargeQuantityGenerator>N</RCRALargeQuantityGenerator>
+        <HHWCollection>N</HHWCollection>
+        <BizActivitiesRegulatorKey>AD0001414</BizActivitiesRegulatorKey>
+        <CERSUniqueKey>7a2731b2-e98b-485a-bfc9-c2e809513086</CERSUniqueKey>
+      </BusinessActivities>
+      <OwnerOperatorInformation>
+        <BeginningDate>2012-03-01</BeginningDate>
+        <EndingDate>2013-03-01</EndingDate>
+        <Phone>(661) 589-808</Phone>
+        <SICCode>1311</SICCode>
+        <MailingAddress><![CDATA[12850 ALLEN LN]]></MailingAddress>
+        <MailingAddressCity><![CDATA[BAKERSFIELD]]></MailingAddressCity>
+        <MailingAddressState>CA</MailingAddressState>
+        <MailingAddressZipCode>93312</MailingAddressZipCode>
+        <OperatorName><![CDATA[Dole Enterprises Inc]]></OperatorName>
+        <OperatorPhone>(661) 589-8088</OperatorPhone>
+        <OwnerName><![CDATA[DOLE ENTERPRISES INC]]></OwnerName>
+        <OwnerPhone>(661) 589-8088</OwnerPhone>
+        <OwnerMailAddress><![CDATA[12850 ALLEN LN]]></OwnerMailAddress>
+        <OwnerCity><![CDATA[BAKERSFIELD]]></OwnerCity>
+        <OwnerState>CA</OwnerState>
+        <OwnerZipCode>93312</OwnerZipCode>
+        <OwnerCountry>United States</OwnerCountry>
+        <EContactName><![CDATA[TOM LADD]]></EContactName>
+        <EContactPhone>(661) 203-6626</EContactPhone>
+        <EContactMailingAddress><![CDATA[12850 ALLEN LANE]]></EContactMailingAddress>
+        <EContactEmailAddress><![CDATA[TWLADD@AOL.COM]]></EContactEmailAddress>
+        <EContactCity><![CDATA[Bakersfield]]></EContactCity>
+        <EContactState>CA</EContactState>
+        <EContactZipCode>93312</EContactZipCode>
+        <EContactCountry>United States</EContactCountry>
+        <PECName><![CDATA[Karen Dole]]></PECName>
+        <PECTitle><![CDATA[OWNER]]></PECTitle>
+        <PECBusinessPhone>(661) 589-8088</PECBusinessPhone>
+        <PEC24HrPhone>(661) 589-8088</PEC24HrPhone>
+        <DocumentPreparerName><![CDATA[TOM LADD]]></DocumentPreparerName>
+        <IdentificationSignerName><![CDATA[KAREN DOLE]]></IdentificationSignerName>
+        <IdentificationSignerTitle><![CDATA[PRESIDENT]]></IdentificationSignerTitle>
+        <BillingContactName><![CDATA[DOLE ENTERPRISES INC.]]></BillingContactName>
+        <BillingContactPhone>(661) 589-8088</BillingContactPhone>
+        <BillingAddress><![CDATA[12850 ALLEN LN]]></BillingAddress>
+        <BillingAddressCity><![CDATA[BAKERSFIELD]]></BillingAddressCity>
+        <BillingAddressState>CA</BillingAddressState>
+        <BillingAddressZipCode>93312</BillingAddressZipCode>
+        <BillingAddressCountry>United States</BillingAddressCountry>
+        <NumberOfEmployees>0</NumberOfEmployees>
+        <OwnerOperatorRegulatorKey>OW0000684</OwnerOperatorRegulatorKey>
+        <CERSUniqueKey>afa50d63-cac0-41fb-b789-5c06df98b078</CERSUniqueKey>
+      </OwnerOperatorInformation>
+      <GeographicInformation>
+        <CERSPoint>
+          <LatitudeMeasure>35.3425</LatitudeMeasure>
+          <LongitudeMeasure>-118.8972</LongitudeMeasure>
+          <HorizontalAccuracyMeasure>50.0000</HorizontalAccuracyMeasure>
+          <HorizontalCollectionMethod>104</HorizontalCollectionMethod>
+          <GeographicReferencePoint>102</GeographicReferencePoint>
+          <HorizontalReferenceDatum>WGS84</HorizontalReferenceDatum>
+          <DataCollectionDate>2014-01-01</DataCollectionDate>
+        </CERSPoint>
+      </GeographicInformation>
+    </FacilityInformation>
+    <HazardousMaterialsInventory>
+      <SubmittalElementHeader>
+        <SubmittedOn>2014-01-02T06:49:12Z</SubmittedOn>
+        <SubmittedByFirstName><![CDATA[TOM]]></SubmittedByFirstName>
+        <SubmittedByLastName><![CDATA[LADD]]></SubmittedByLastName>
+        <SubmittedByEmail><![CDATA[twladd@AOL.com]]></SubmittedByEmail>
+        <RegulatorCode>1500</RegulatorCode>
+        <SubmittalStatus>2</SubmittalStatus>
+        <SubmittalActionDetails>
+          <SubmittalActionOn></SubmittalActionOn>
+          <SubmittalActionAgentName />
+          <SubmittalActionAgentEmail />
+          <SubmittalActionComments />
+        </SubmittalActionDetails>
+        <CERSUniqueKey>e2969ebe-b98b-49b4-80c8-c8f4a3d973ad</CERSUniqueKey>
+      </SubmittalElementHeader>
+      <Chemicals>
+        <Chemical>
+          <ChemicalLocation><![CDATA[MATTSON LEASE 125-6;]]></ChemicalLocation>
+          <CLConfidential>N</CLConfidential>
+          <ChemicalName><![CDATA[WASH TANK]]></ChemicalName>
+          <TradeSecret>N</TradeSecret>
+          <CommonName><![CDATA[CRUDE OIL WASH TANK]]></CommonName>
+          <EHS>N</EHS>
+          <HMType>a</HMType>
+          <RadioActive>N</RadioActive>
+          <Curies>0</Curies>
+          <PhysicalState>b</PhysicalState>
+          <LargestContainer>31500</LargestContainer>
+          <FHCFire>Y</FHCFire>
+          <FHCReactive>N</FHCReactive>
+          <FHCPressureRelease>N</FHCPressureRelease>
+          <FHCAcuteHealth>N</FHCAcuteHealth>
+          <FHCChronicHealth>N</FHCChronicHealth>
+          <AverageDailyAmount>2100</AverageDailyAmount>
+          <MaximumDailyAmount>2100</MaximumDailyAmount>
+          <Units>a</Units>
+          <DaysOnSite>365</DaysOnSite>
+          <SCAboveGroundTank>Y</SCAboveGroundTank>
+          <SCUnderGroundTank>N</SCUnderGroundTank>
+          <SCTankInsideBuilding>N</SCTankInsideBuilding>
+          <SCSteelDrum>N</SCSteelDrum>
+          <SCPlasticNonMetallicDrum>N</SCPlasticNonMetallicDrum>
+          <SCCan>N</SCCan>
+          <SCCarboy>N</SCCarboy>
+          <SCSilo>N</SCSilo>
+          <SCFiberDrum>N</SCFiberDrum>
+          <SCBag>N</SCBag>
+          <SCBox>N</SCBox>
+          <SCCylinder>N</SCCylinder>
+          <SCGlassBottle>N</SCGlassBottle>
+          <SCPlasticBottle>N</SCPlasticBottle>
+          <SCToteBin>N</SCToteBin>
+          <SCTankTruckTankWagon>N</SCTankTruckTankWagon>
+          <SCTankCarRailCar>N</SCTankCarRailCar>
+          <SCOther><![CDATA[N]]></SCOther>
+          <StoragePressure>a</StoragePressure>
+          <StorageTemperature>a</StorageTemperature>
+          <HC1PercentByWeight>100.00</HC1PercentByWeight>
+          <HC1Name><![CDATA[CRUDE OIL]]></HC1Name>
+          <HC1EHS>N</HC1EHS>
+          <ChemicalRegulatorKey>HZ0027399</ChemicalRegulatorKey>
+          <CERSUniqueKey>7a7d7843-ffb0-4aa9-a3c0-935697fbb4ea</CERSUniqueKey>
+        </Chemical>
+        <Chemical>
+          <ChemicalLocation><![CDATA[MATTSON LEASE 125-6;]]></ChemicalLocation>
+          <CLConfidential>N</CLConfidential>
+          <ChemicalName><![CDATA[CRUDE OIL]]></ChemicalName>
+          <TradeSecret>N</TradeSecret>
+          <CommonName><![CDATA[CRUDE OIL]]></CommonName>
+          <EHS>N</EHS>
+          <CASNumber>68410-00-4</CASNumber>
+          <HMType>a</HMType>
+          <RadioActive>N</RadioActive>
+          <Curies>0</Curies>
+          <PhysicalState>b</PhysicalState>
+          <LargestContainer>21000</LargestContainer>
+          <FHCFire>Y</FHCFire>
+          <FHCReactive>N</FHCReactive>
+          <FHCPressureRelease>N</FHCPressureRelease>
+          <FHCAcuteHealth>N</FHCAcuteHealth>
+          <FHCChronicHealth>N</FHCChronicHealth>
+          <AverageDailyAmount>8400</AverageDailyAmount>
+          <MaximumDailyAmount>16800</MaximumDailyAmount>
+          <Units>a</Units>
+          <DaysOnSite>365</DaysOnSite>
+          <SCAboveGroundTank>Y</SCAboveGroundTank>
+          <SCUnderGroundTank>N</SCUnderGroundTank>
+          <SCTankInsideBuilding>N</SCTankInsideBuilding>
+          <SCSteelDrum>N</SCSteelDrum>
+          <SCPlasticNonMetallicDrum>N</SCPlasticNonMetallicDrum>
+          <SCCan>N</SCCan>
+          <SCCarboy>N</SCCarboy>
+          <SCSilo>N</SCSilo>
+          <SCFiberDrum>N</SCFiberDrum>
+          <SCBag>N</SCBag>
+          <SCBox>N</SCBox>
+          <SCCylinder>N</SCCylinder>
+          <SCGlassBottle>N</SCGlassBottle>
+          <SCPlasticBottle>N</SCPlasticBottle>
+          <SCToteBin>N</SCToteBin>
+          <SCTankTruckTankWagon>N</SCTankTruckTankWagon>
+          <SCTankCarRailCar>N</SCTankCarRailCar>
+          <SCOther><![CDATA[N]]></SCOther>
+          <StoragePressure>a</StoragePressure>
+          <StorageTemperature>a</StorageTemperature>
+          <HC1PercentByWeight>100.00</HC1PercentByWeight>
+          <HC1Name><![CDATA[CRUDE OIL]]></HC1Name>
+          <HC1EHS>N</HC1EHS>
+          <USEPASRSNumber>425009</USEPASRSNumber>
+          <ChemicalRegulatorKey>HZ0027400</ChemicalRegulatorKey>
+          <CERSUniqueKey>9025e629-1940-4cc0-b9f0-2e7f420c6888</CERSUniqueKey>
+        </Chemical>
+        <Chemical>
+          <ChemicalLocation><![CDATA[MATTSON LEASE 125-6;]]></ChemicalLocation>
+          <CLConfidential>N</CLConfidential>
+          <ChemicalName><![CDATA[CRUDE OIL]]></ChemicalName>
+          <TradeSecret>N</TradeSecret>
+          <CommonName><![CDATA[CRUDE OIL]]></CommonName>
+          <EHS>N</EHS>
+          <CASNumber>68410-00-4</CASNumber>
+          <HMType>a</HMType>
+          <RadioActive>N</RadioActive>
+          <Curies>0</Curies>
+          <PhysicalState>b</PhysicalState>
+          <LargestContainer>21000</LargestContainer>
+          <FHCFire>Y</FHCFire>
+          <FHCReactive>N</FHCReactive>
+          <FHCPressureRelease>N</FHCPressureRelease>
+          <FHCAcuteHealth>N</FHCAcuteHealth>
+          <FHCChronicHealth>N</FHCChronicHealth>
+          <AverageDailyAmount>8400</AverageDailyAmount>
+          <MaximumDailyAmount>16800</MaximumDailyAmount>
+          <Units>a</Units>
+          <DaysOnSite>365</DaysOnSite>
+          <SCAboveGroundTank>Y</SCAboveGroundTank>
+          <SCUnderGroundTank>N</SCUnderGroundTank>
+          <SCTankInsideBuilding>N</SCTankInsideBuilding>
+          <SCSteelDrum>N</SCSteelDrum>
+          <SCPlasticNonMetallicDrum>N</SCPlasticNonMetallicDrum>
+          <SCCan>N</SCCan>
+          <SCCarboy>N</SCCarboy>
+          <SCSilo>N</SCSilo>
+          <SCFiberDrum>N</SCFiberDrum>
+          <SCBag>N</SCBag>
+          <SCBox>N</SCBox>
+          <SCCylinder>N</SCCylinder>
+          <SCGlassBottle>N</SCGlassBottle>
+          <SCPlasticBottle>N</SCPlasticBottle>
+          <SCToteBin>N</SCToteBin>
+          <SCTankTruckTankWagon>N</SCTankTruckTankWagon>
+          <SCTankCarRailCar>N</SCTankCarRailCar>
+          <SCOther><![CDATA[N]]></SCOther>
+          <StoragePressure>a</StoragePressure>
+          <StorageTemperature>a</StorageTemperature>
+          <HC1PercentByWeight>100.00</HC1PercentByWeight>
+          <HC1Name><![CDATA[CRUDE OIL]]></HC1Name>
+          <HC1EHS>N</HC1EHS>
+          <USEPASRSNumber>425009</USEPASRSNumber>
+          <ChemicalRegulatorKey>HZ0027401</ChemicalRegulatorKey>
+          <CERSUniqueKey>f3794e27-8fca-493a-9415-3240d065e538</CERSUniqueKey>
+        </Chemical>
+        <Chemical>
+          <ChemicalLocation><![CDATA[MATTSON LEASE 125-6;]]></ChemicalLocation>
+          <CLConfidential>N</CLConfidential>
+          <ChemicalName><![CDATA[SOLVENT]]></ChemicalName>
+          <TradeSecret>N</TradeSecret>
+          <CommonName><![CDATA[SOLVENT]]></CommonName>
+          <EHS>N</EHS>
+          <CASNumber>64741-88-4</CASNumber>
+          <PFCodeHazardClass>4</PFCodeHazardClass>
+          <HMType>b</HMType>
+          <RadioActive>N</RadioActive>
+          <Curies>0</Curies>
+          <PhysicalState>b</PhysicalState>
+          <LargestContainer>55</LargestContainer>
+          <FHCFire>Y</FHCFire>
+          <FHCReactive>N</FHCReactive>
+          <FHCPressureRelease>N</FHCPressureRelease>
+          <FHCAcuteHealth>N</FHCAcuteHealth>
+          <FHCChronicHealth>N</FHCChronicHealth>
+          <AverageDailyAmount>25</AverageDailyAmount>
+          <MaximumDailyAmount>55</MaximumDailyAmount>
+          <Units>a</Units>
+          <DaysOnSite>365</DaysOnSite>
+          <SCAboveGroundTank>N</SCAboveGroundTank>
+          <SCUnderGroundTank>N</SCUnderGroundTank>
+          <SCTankInsideBuilding>N</SCTankInsideBuilding>
+          <SCSteelDrum>Y</SCSteelDrum>
+          <SCPlasticNonMetallicDrum>N</SCPlasticNonMetallicDrum>
+          <SCCan>N</SCCan>
+          <SCCarboy>N</SCCarboy>
+          <SCSilo>N</SCSilo>
+          <SCFiberDrum>N</SCFiberDrum>
+          <SCBag>N</SCBag>
+          <SCBox>N</SCBox>
+          <SCCylinder>N</SCCylinder>
+          <SCGlassBottle>N</SCGlassBottle>
+          <SCPlasticBottle>N</SCPlasticBottle>
+          <SCToteBin>N</SCToteBin>
+          <SCTankTruckTankWagon>N</SCTankTruckTankWagon>
+          <SCTankCarRailCar>N</SCTankCarRailCar>
+          <SCOther><![CDATA[N]]></SCOther>
+          <StoragePressure>a</StoragePressure>
+          <StorageTemperature>a</StorageTemperature>
+          <HC1PercentByWeight>100.00</HC1PercentByWeight>
+          <HC1Name><![CDATA[SOLVENT]]></HC1Name>
+          <HC1EHS>N</HC1EHS>
+          <DOTHazardClassificationID>3</DOTHazardClassificationID>
+          <ChemicalRegulatorKey>HZ0027402</ChemicalRegulatorKey>
+          <CERSUniqueKey>6cb5544b-0e66-4b08-92f0-2c3cf7b9ff80</CERSUniqueKey>
+        </Chemical>
+        <Chemical>
+          <ChemicalLocation><![CDATA[PORTALS LEASE 125-5;]]></ChemicalLocation>
+          <CLConfidential>N</CLConfidential>
+          <ChemicalName><![CDATA[CRUDE OIL]]></ChemicalName>
+          <TradeSecret>N</TradeSecret>
+          <CommonName><![CDATA[CRUDE OIL]]></CommonName>
+          <EHS>N</EHS>
+          <CASNumber>68410-00-4</CASNumber>
+          <HMType>a</HMType>
+          <RadioActive>N</RadioActive>
+          <Curies>0</Curies>
+          <PhysicalState>b</PhysicalState>
+          <LargestContainer>21000</LargestContainer>
+          <FHCFire>Y</FHCFire>
+          <FHCReactive>N</FHCReactive>
+          <FHCPressureRelease>N</FHCPressureRelease>
+          <FHCAcuteHealth>N</FHCAcuteHealth>
+          <FHCChronicHealth>N</FHCChronicHealth>
+          <AverageDailyAmount>8400</AverageDailyAmount>
+          <MaximumDailyAmount>16800</MaximumDailyAmount>
+          <Units>a</Units>
+          <DaysOnSite>365</DaysOnSite>
+          <SCAboveGroundTank>Y</SCAboveGroundTank>
+          <SCUnderGroundTank>N</SCUnderGroundTank>
+          <SCTankInsideBuilding>N</SCTankInsideBuilding>
+          <SCSteelDrum>N</SCSteelDrum>
+          <SCPlasticNonMetallicDrum>N</SCPlasticNonMetallicDrum>
+          <SCCan>N</SCCan>
+          <SCCarboy>N</SCCarboy>
+          <SCSilo>N</SCSilo>
+          <SCFiberDrum>N</SCFiberDrum>
+          <SCBag>N</SCBag>
+          <SCBox>N</SCBox>
+          <SCCylinder>N</SCCylinder>
+          <SCGlassBottle>N</SCGlassBottle>
+          <SCPlasticBottle>N</SCPlasticBottle>
+          <SCToteBin>N</SCToteBin>
+          <SCTankTruckTankWagon>N</SCTankTruckTankWagon>
+          <SCTankCarRailCar>N</SCTankCarRailCar>
+          <SCOther><![CDATA[N]]></SCOther>
+          <StoragePressure>a</StoragePressure>
+          <StorageTemperature>a</StorageTemperature>
+          <HC1PercentByWeight>100.00</HC1PercentByWeight>
+          <HC1Name><![CDATA[CRUDE OIL]]></HC1Name>
+          <HC1EHS>N</HC1EHS>
+          <USEPASRSNumber>425009</USEPASRSNumber>
+          <ChemicalRegulatorKey>HZ0027403</ChemicalRegulatorKey>
+          <CERSUniqueKey>1a0387d6-fb48-45e4-a8cc-622625f073de</CERSUniqueKey>
+        </Chemical>
+        <Chemical>
+          <ChemicalLocation><![CDATA[PORTALS LEASE 125-5;]]></ChemicalLocation>
+          <CLConfidential>N</CLConfidential>
+          <ChemicalName><![CDATA[WASH TANK]]></ChemicalName>
+          <TradeSecret>N</TradeSecret>
+          <CommonName><![CDATA[CRUDE OIL WASH TANK]]></CommonName>
+          <EHS>N</EHS>
+          <HMType>a</HMType>
+          <RadioActive>N</RadioActive>
+          <Curies>0</Curies>
+          <PhysicalState>b</PhysicalState>
+          <LargestContainer>42000</LargestContainer>
+          <FHCFire>Y</FHCFire>
+          <FHCReactive>N</FHCReactive>
+          <FHCPressureRelease>N</FHCPressureRelease>
+          <FHCAcuteHealth>N</FHCAcuteHealth>
+          <FHCChronicHealth>N</FHCChronicHealth>
+          <AverageDailyAmount>4200</AverageDailyAmount>
+          <MaximumDailyAmount>4200</MaximumDailyAmount>
+          <Units>a</Units>
+          <DaysOnSite>365</DaysOnSite>
+          <SCAboveGroundTank>Y</SCAboveGroundTank>
+          <SCUnderGroundTank>N</SCUnderGroundTank>
+          <SCTankInsideBuilding>N</SCTankInsideBuilding>
+          <SCSteelDrum>N</SCSteelDrum>
+          <SCPlasticNonMetallicDrum>N</SCPlasticNonMetallicDrum>
+          <SCCan>N</SCCan>
+          <SCCarboy>N</SCCarboy>
+          <SCSilo>N</SCSilo>
+          <SCFiberDrum>N</SCFiberDrum>
+          <SCBag>N</SCBag>
+          <SCBox>N</SCBox>
+          <SCCylinder>N</SCCylinder>
+          <SCGlassBottle>N</SCGlassBottle>
+          <SCPlasticBottle>N</SCPlasticBottle>
+          <SCToteBin>N</SCToteBin>
+          <SCTankTruckTankWagon>N</SCTankTruckTankWagon>
+          <SCTankCarRailCar>N</SCTankCarRailCar>
+          <SCOther><![CDATA[N]]></SCOther>
+          <StoragePressure>a</StoragePressure>
+          <StorageTemperature>a</StorageTemperature>
+          <HC1PercentByWeight>100.00</HC1PercentByWeight>
+          <HC1Name><![CDATA[CRUDE OIL]]></HC1Name>
+          <HC1EHS>N</HC1EHS>
+          <ChemicalRegulatorKey>HZ0027404</ChemicalRegulatorKey>
+          <CERSUniqueKey>43d5bdb9-ae58-4268-ad83-6a59d4c9b004</CERSUniqueKey>
+        </Chemical>
+        <Chemical>
+          <ChemicalLocation><![CDATA[SEALE LEASE 125-5;]]></ChemicalLocation>
+          <CLConfidential>N</CLConfidential>
+          <ChemicalName><![CDATA[CRUDE OIL]]></ChemicalName>
+          <TradeSecret>N</TradeSecret>
+          <CommonName><![CDATA[CRUDE OIL]]></CommonName>
+          <EHS>N</EHS>
+          <CASNumber>68410-00-4</CASNumber>
+          <HMType>a</HMType>
+          <RadioActive>N</RadioActive>
+          <Curies>0</Curies>
+          <PhysicalState>b</PhysicalState>
+          <LargestContainer>10500</LargestContainer>
+          <FHCFire>Y</FHCFire>
+          <FHCReactive>N</FHCReactive>
+          <FHCPressureRelease>N</FHCPressureRelease>
+          <FHCAcuteHealth>N</FHCAcuteHealth>
+          <FHCChronicHealth>N</FHCChronicHealth>
+          <AverageDailyAmount>0</AverageDailyAmount>
+          <MaximumDailyAmount>10500</MaximumDailyAmount>
+          <Units>a</Units>
+          <DaysOnSite>365</DaysOnSite>
+          <SCAboveGroundTank>Y</SCAboveGroundTank>
+          <SCUnderGroundTank>N</SCUnderGroundTank>
+          <SCTankInsideBuilding>N</SCTankInsideBuilding>
+          <SCSteelDrum>N</SCSteelDrum>
+          <SCPlasticNonMetallicDrum>N</SCPlasticNonMetallicDrum>
+          <SCCan>N</SCCan>
+          <SCCarboy>N</SCCarboy>
+          <SCSilo>N</SCSilo>
+          <SCFiberDrum>N</SCFiberDrum>
+          <SCBag>N</SCBag>
+          <SCBox>N</SCBox>
+          <SCCylinder>N</SCCylinder>
+          <SCGlassBottle>N</SCGlassBottle>
+          <SCPlasticBottle>N</SCPlasticBottle>
+          <SCToteBin>N</SCToteBin>
+          <SCTankTruckTankWagon>N</SCTankTruckTankWagon>
+          <SCTankCarRailCar>N</SCTankCarRailCar>
+          <SCOther><![CDATA[N]]></SCOther>
+          <StoragePressure>a</StoragePressure>
+          <StorageTemperature>a</StorageTemperature>
+          <HC1PercentByWeight>100.00</HC1PercentByWeight>
+          <HC1Name><![CDATA[CRUDE OIL]]></HC1Name>
+          <HC1EHS>N</HC1EHS>
+          <USEPASRSNumber>425009</USEPASRSNumber>
+          <ChemicalRegulatorKey>HZ0027405</ChemicalRegulatorKey>
+          <CERSUniqueKey>c6b671ae-deac-4bee-a843-d9f5f38a36a3</CERSUniqueKey>
+        </Chemical>
+        <Chemical>
+          <ChemicalLocation><![CDATA[SEALE LEASE 125-5;]]></ChemicalLocation>
+          <CLConfidential>N</CLConfidential>
+          <ChemicalName><![CDATA[CRUDE OIL AND WATER]]></ChemicalName>
+          <TradeSecret>N</TradeSecret>
+          <CommonName><![CDATA[WATER & CRUDE OIL MIXTURE]]></CommonName>
+          <EHS>N</EHS>
+          <HMType>b</HMType>
+          <RadioActive>N</RadioActive>
+          <Curies>0</Curies>
+          <PhysicalState>b</PhysicalState>
+          <LargestContainer>8400</LargestContainer>
+          <FHCFire>Y</FHCFire>
+          <FHCReactive>N</FHCReactive>
+          <FHCPressureRelease>N</FHCPressureRelease>
+          <FHCAcuteHealth>N</FHCAcuteHealth>
+          <FHCChronicHealth>N</FHCChronicHealth>
+          <AverageDailyAmount>0</AverageDailyAmount>
+          <MaximumDailyAmount>8400</MaximumDailyAmount>
+          <Units>a</Units>
+          <DaysOnSite>365</DaysOnSite>
+          <SCAboveGroundTank>Y</SCAboveGroundTank>
+          <SCUnderGroundTank>N</SCUnderGroundTank>
+          <SCTankInsideBuilding>N</SCTankInsideBuilding>
+          <SCSteelDrum>N</SCSteelDrum>
+          <SCPlasticNonMetallicDrum>N</SCPlasticNonMetallicDrum>
+          <SCCan>N</SCCan>
+          <SCCarboy>N</SCCarboy>
+          <SCSilo>N</SCSilo>
+          <SCFiberDrum>N</SCFiberDrum>
+          <SCBag>N</SCBag>
+          <SCBox>N</SCBox>
+          <SCCylinder>N</SCCylinder>
+          <SCGlassBottle>N</SCGlassBottle>
+          <SCPlasticBottle>N</SCPlasticBottle>
+          <SCToteBin>N</SCToteBin>
+          <SCTankTruckTankWagon>N</SCTankTruckTankWagon>
+          <SCTankCarRailCar>N</SCTankCarRailCar>
+          <SCOther><![CDATA[N]]></SCOther>
+          <StoragePressure>a</StoragePressure>
+          <StorageTemperature>a</StorageTemperature>
+          <HC1PercentByWeight>100.00</HC1PercentByWeight>
+          <HC1Name><![CDATA[CRUDE OIL]]></HC1Name>
+          <HC1EHS>N</HC1EHS>
+          <ChemicalRegulatorKey>HZ0027406</ChemicalRegulatorKey>
+          <CERSUniqueKey>e58bd67e-1c1c-4be9-a9b9-2ad7d477df26</CERSUniqueKey>
+        </Chemical>
+        <Chemical>
+          <ChemicalLocation><![CDATA[SEALE LEASE 125-5;]]></ChemicalLocation>
+          <CLConfidential>N</CLConfidential>
+          <ChemicalName><![CDATA[PROPANE]]></ChemicalName>
+          <TradeSecret>N</TradeSecret>
+          <CommonName><![CDATA[PROPANE]]></CommonName>
+          <EHS>N</EHS>
+          <CASNumber>598-10-7</CASNumber>
+          <PFCodeHazardClass>7</PFCodeHazardClass>
+          <SFCodeHazardClass>8</SFCodeHazardClass>
+          <HMType>a</HMType>
+          <RadioActive>N</RadioActive>
+          <Curies>0</Curies>
+          <PhysicalState>b</PhysicalState>
+          <LargestContainer>400</LargestContainer>
+          <FHCFire>Y</FHCFire>
+          <FHCReactive>N</FHCReactive>
+          <FHCPressureRelease>Y</FHCPressureRelease>
+          <FHCAcuteHealth>Y</FHCAcuteHealth>
+          <FHCChronicHealth>N</FHCChronicHealth>
+          <AverageDailyAmount>0</AverageDailyAmount>
+          <MaximumDailyAmount>400</MaximumDailyAmount>
+          <Units>a</Units>
+          <DaysOnSite>365</DaysOnSite>
+          <SCAboveGroundTank>N</SCAboveGroundTank>
+          <SCUnderGroundTank>N</SCUnderGroundTank>
+          <SCTankInsideBuilding>N</SCTankInsideBuilding>
+          <SCSteelDrum>N</SCSteelDrum>
+          <SCPlasticNonMetallicDrum>N</SCPlasticNonMetallicDrum>
+          <SCCan>N</SCCan>
+          <SCCarboy>N</SCCarboy>
+          <SCSilo>N</SCSilo>
+          <SCFiberDrum>N</SCFiberDrum>
+          <SCBag>N</SCBag>
+          <SCBox>N</SCBox>
+          <SCCylinder>Y</SCCylinder>
+          <SCGlassBottle>N</SCGlassBottle>
+          <SCPlasticBottle>N</SCPlasticBottle>
+          <SCToteBin>N</SCToteBin>
+          <SCTankTruckTankWagon>N</SCTankTruckTankWagon>
+          <SCTankCarRailCar>N</SCTankCarRailCar>
+          <SCOther><![CDATA[N]]></SCOther>
+          <StoragePressure>b</StoragePressure>
+          <StorageTemperature>a</StorageTemperature>
+          <HC1PercentByWeight>100.00</HC1PercentByWeight>
+          <HC1Name><![CDATA[PROPOANE]]></HC1Name>
+          <HC1EHS>N</HC1EHS>
+          <DOTHazardClassificationID>8</DOTHazardClassificationID>
+          <ChemicalRegulatorKey>HZ0027407</ChemicalRegulatorKey>
+          <CERSUniqueKey>82af31c6-8c80-42b8-b84d-4e70011d1141</CERSUniqueKey>
+        </Chemical>
+      </Chemicals>
+      <SiteMaps>
+        <SiteMap>
+          <SiteMapDocument>
+            <Attachments>
+              <Attachment>
+                <AttachmentFileName>Facility maps.pdf</AttachmentFileName>
+                <DocumentTitle><![CDATA[Annotated Site Map (Official Use Only)]]></DocumentTitle>
+                <DocumentDescription />
+                <DateAuthored>2014-01-01T08:00:00Z</DateAuthored>
+                <DocumentRegulatorKey>b4e09cc0-9ea7-4d4b-864d-37d3120f7513</DocumentRegulatorKey>
+                <CERSUniqueKey>3b51c9b7-b703-4eab-a2ff-c33855206b04</CERSUniqueKey>
+              </Attachment>
+            </Attachments>
+          </SiteMapDocument>
+        </SiteMap>
+      </SiteMaps>
+    </HazardousMaterialsInventory>
+    <EmergencyResponseTrainingPlans>
+      <SubmittalElementHeader>
+        <SubmittedOn>2014-01-02T06:49:12Z</SubmittedOn>
+        <SubmittedByFirstName><![CDATA[TOM]]></SubmittedByFirstName>
+        <SubmittedByLastName><![CDATA[LADD]]></SubmittedByLastName>
+        <SubmittedByEmail><![CDATA[twladd@AOL.com]]></SubmittedByEmail>
+        <RegulatorCode>1500</RegulatorCode>
+        <SubmittalStatus>2</SubmittalStatus>
+        <SubmittalActionDetails>
+          <SubmittalActionOn></SubmittalActionOn>
+          <SubmittalActionAgentName />
+          <SubmittalActionAgentEmail />
+          <SubmittalActionComments />
+        </SubmittalActionDetails>
+        <CERSUniqueKey>7e0e66e6-70e0-44a9-a367-7d3a5f0ab8be</CERSUniqueKey>
+      </SubmittalElementHeader>
+      <EmergencyResponseContingencyPlans>
+        <EmergencyResponseContingencyPlan>
+          <EmergencyResponseContingencyPlanDocument>
+            <Attachments>
+              <Attachment>
+                <AttachmentFileName>Contingency Plan.pdf</AttachmentFileName>
+                <DocumentTitle><![CDATA[Emergency Response/Contingency Plan]]></DocumentTitle>
+                <DocumentDescription />
+                <DateAuthored>2014-01-01T08:00:00Z</DateAuthored>
+                <DocumentRegulatorKey>478c71fa-823d-4dcd-ac09-4d52d6097b0d</DocumentRegulatorKey>
+                <CERSUniqueKey>812d9d52-bee4-4a97-b788-dd72e354ff80</CERSUniqueKey>
+              </Attachment>
+            </Attachments>
+          </EmergencyResponseContingencyPlanDocument>
+        </EmergencyResponseContingencyPlan>
+      </EmergencyResponseContingencyPlans>
+      <EmployeeTrainingPlans>
+        <EmployeeTrainingPlan>
+          <EmployeeTrainingPlanDocument>
+            <Attachments>
+              <Attachment>
+                <AttachmentFileName>EMPLOYEE TRAINING PLAN.pdf</AttachmentFileName>
+                <DocumentTitle><![CDATA[Employee Training Plan]]></DocumentTitle>
+                <DocumentDescription />
+                <DateAuthored>2014-01-01T08:00:00Z</DateAuthored>
+                <DocumentRegulatorKey>fa1e6879-3624-4bd6-a738-fb4528d128d2</DocumentRegulatorKey>
+                <CERSUniqueKey>47c3dcdc-304d-4807-99c3-201550401c33</CERSUniqueKey>
+              </Attachment>
+            </Attachments>
+          </EmployeeTrainingPlanDocument>
+        </EmployeeTrainingPlan>
+      </EmployeeTrainingPlans>
+    </EmergencyResponseTrainingPlans>
+  </FacilitySubmittal>
+  <FacilitySubmittal>
+    <CERSID>10230592</CERSID>
+    <CERSOrganization>
+      <OrganizationCode>90200878</OrganizationCode>
+      <OrganizationName><![CDATA[DOLE ENTERPRISE INC]]></OrganizationName>
+    </CERSOrganization>
+    <FacilityID />
+    <FacilityRegulatorKey>FA0000019</FacilityRegulatorKey>
+    <FacilityInformation>
+      <SubmittalElementHeader>
+        <SubmittedOn>2014-01-02T05:23:24Z</SubmittedOn>
+        <SubmittedByFirstName><![CDATA[TOM]]></SubmittedByFirstName>
+        <SubmittedByLastName><![CDATA[LADD]]></SubmittedByLastName>
+        <SubmittedByEmail><![CDATA[twladd@AOL.com]]></SubmittedByEmail>
+        <RegulatorCode>1500</RegulatorCode>
+        <SubmittalStatus>2</SubmittalStatus>
+        <SubmittalActionDetails>
+          <SubmittalActionOn></SubmittalActionOn>
+          <SubmittalActionAgentName />
+          <SubmittalActionAgentEmail />
+          <SubmittalActionComments />
+        </SubmittalActionDetails>
+        <CERSUniqueKey>8783fdff-4697-465e-bd0b-fa1e12d43627</CERSUniqueKey>
+      </SubmittalElementHeader>
+      <BusinessActivities>
+        <BusinessName><![CDATA[DOLE ENTERPRISE INC - 29-27]]></BusinessName>
+        <SiteAddress><![CDATA[T29S R27E SEC 27 28 29 15]]></SiteAddress>
+        <City><![CDATA[BAKERSFIELD]]></City>
+        <ZipCode>93308</ZipCode>
+        <CountyID>15</CountyID>
+        <HMOnSite>Y</HMOnSite>
+        <CalARPRegulatedSubstances>N</CalARPRegulatedSubstances>
+        <OwnOrOperateUST>N</OwnOrOperateUST>
+        <OwnOrOperateAPST>N</OwnOrOperateAPST>
+        <HWGenerator>N</HWGenerator>
+        <Recycle>N</Recycle>
+        <OnsiteHWTreatment>N</OnsiteHWTreatment>
+        <FinancialAssurance>N</FinancialAssurance>
+        <RWConsolidationSite>N</RWConsolidationSite>
+        <HWTankClosure>N</HWTankClosure>
+        <RCRALargeQuantityGenerator>N</RCRALargeQuantityGenerator>
+        <HHWCollection>N</HHWCollection>
+        <BizActivitiesRegulatorKey>AD0000190</BizActivitiesRegulatorKey>
+        <CERSUniqueKey>e5bf96f1-4425-449c-a3fe-395f7dda2956</CERSUniqueKey>
+      </BusinessActivities>
+      <OwnerOperatorInformation>
+        <BeginningDate>2012-03-01</BeginningDate>
+        <EndingDate>2013-03-01</EndingDate>
+        <Phone>(661) 589-8088</Phone>
+        <SICCode>1311</SICCode>
+        <MailingAddress><![CDATA[12850 ALLEN LN]]></MailingAddress>
+        <MailingAddressCity><![CDATA[BAKERSFIELD]]></MailingAddressCity>
+        <MailingAddressState>CA</MailingAddressState>
+        <MailingAddressZipCode>93312</MailingAddressZipCode>
+        <OperatorName><![CDATA[Dole Enterprise, Ic]]></OperatorName>
+        <OperatorPhone>(661) 589-8088</OperatorPhone>
+        <OwnerName><![CDATA[DOLE ENTERPRISE INC]]></OwnerName>
+        <OwnerPhone>(661) 589-8088</OwnerPhone>
+        <OwnerMailAddress><![CDATA[12850 ALLEN LN]]></OwnerMailAddress>
+        <OwnerCity><![CDATA[BAKERSFIELD]]></OwnerCity>
+        <OwnerState>CA</OwnerState>
+        <OwnerZipCode>93312</OwnerZipCode>
+        <OwnerCountry>United States</OwnerCountry>
+        <EContactName><![CDATA[TOM LADD]]></EContactName>
+        <EContactPhone>(661) 203-6626</EContactPhone>
+        <EContactMailingAddress><![CDATA[12850 ALLEN LN]]></EContactMailingAddress>
+        <EContactEmailAddress><![CDATA[TWLADD@AOL.COM]]></EContactEmailAddress>
+        <EContactCity><![CDATA[BAKERSFIELD]]></EContactCity>
+        <EContactState>CA</EContactState>
+        <EContactZipCode>93312</EContactZipCode>
+        <EContactCountry>United States</EContactCountry>
+        <PECName><![CDATA[KAREN DOLE]]></PECName>
+        <PECTitle><![CDATA[OWNER]]></PECTitle>
+        <PECBusinessPhone>(661) 589-8088</PECBusinessPhone>
+        <PEC24HrPhone>(661) 589-8088</PEC24HrPhone>
+        <DocumentPreparerName><![CDATA[TOM LAD]]></DocumentPreparerName>
+        <IdentificationSignerName><![CDATA[KAREN DOLE]]></IdentificationSignerName>
+        <IdentificationSignerTitle><![CDATA[PRESIDENT]]></IdentificationSignerTitle>
+        <BillingContactName><![CDATA[DOLE ENTERPRISE INC.]]></BillingContactName>
+        <BillingContactPhone>(661) 589-8088</BillingContactPhone>
+        <BillingAddress><![CDATA[12850 ALLEN LN]]></BillingAddress>
+        <BillingAddressCity><![CDATA[BAKERSFIELD]]></BillingAddressCity>
+        <BillingAddressState>CA</BillingAddressState>
+        <BillingAddressZipCode>93312</BillingAddressZipCode>
+        <BillingAddressCountry>United States</BillingAddressCountry>
+        <NumberOfEmployees>0</NumberOfEmployees>
+        <OwnerOperatorRegulatorKey>OW0000684</OwnerOperatorRegulatorKey>
+        <CERSUniqueKey>23796b9b-57b3-4f25-99bc-31032e37046a</CERSUniqueKey>
+      </OwnerOperatorInformation>
+    </FacilityInformation>
+    <HazardousMaterialsInventory>
+      <SubmittalElementHeader>
+        <SubmittedOn>2014-01-02T05:23:24Z</SubmittedOn>
+        <SubmittedByFirstName><![CDATA[TOM]]></SubmittedByFirstName>
+        <SubmittedByLastName><![CDATA[LADD]]></SubmittedByLastName>
+        <SubmittedByEmail><![CDATA[twladd@AOL.com]]></SubmittedByEmail>
+        <RegulatorCode>1500</RegulatorCode>
+        <SubmittalStatus>2</SubmittalStatus>
+        <SubmittalActionDetails>
+          <SubmittalActionOn></SubmittalActionOn>
+          <SubmittalActionAgentName />
+          <SubmittalActionAgentEmail />
+          <SubmittalActionComments />
+        </SubmittalActionDetails>
+        <CERSUniqueKey>0e1bfaa5-ebe0-4195-b9a9-cb144c4b8a56</CERSUniqueKey>
+      </SubmittalElementHeader>
+      <Chemicals>
+        <Chemical>
+          <ChemicalLocation><![CDATA[OMNI-THROPP;SEC 29 29S/27E]]></ChemicalLocation>
+          <CLConfidential>N</CLConfidential>
+          <ChemicalName><![CDATA[CRUDE OIL]]></ChemicalName>
+          <TradeSecret>N</TradeSecret>
+          <CommonName><![CDATA[CRUDE OIL]]></CommonName>
+          <EHS>N</EHS>
+          <CASNumber>68410-00-4</CASNumber>
+          <HMType>a</HMType>
+          <RadioActive>N</RadioActive>
+          <Curies>0</Curies>
+          <PhysicalState>b</PhysicalState>
+          <LargestContainer>500</LargestContainer>
+          <FHCFire>Y</FHCFire>
+          <FHCReactive>N</FHCReactive>
+          <FHCPressureRelease>N</FHCPressureRelease>
+          <FHCAcuteHealth>Y</FHCAcuteHealth>
+          <FHCChronicHealth>N</FHCChronicHealth>
+          <AverageDailyAmount>6300</AverageDailyAmount>
+          <MaximumDailyAmount>12600</MaximumDailyAmount>
+          <Units>a</Units>
+          <DaysOnSite>365</DaysOnSite>
+          <SCAboveGroundTank>Y</SCAboveGroundTank>
+          <SCUnderGroundTank>N</SCUnderGroundTank>
+          <SCTankInsideBuilding>N</SCTankInsideBuilding>
+          <SCSteelDrum>N</SCSteelDrum>
+          <SCPlasticNonMetallicDrum>N</SCPlasticNonMetallicDrum>
+          <SCCan>N</SCCan>
+          <SCCarboy>N</SCCarboy>
+          <SCSilo>N</SCSilo>
+          <SCFiberDrum>N</SCFiberDrum>
+          <SCBag>N</SCBag>
+          <SCBox>N</SCBox>
+          <SCCylinder>N</SCCylinder>
+          <SCGlassBottle>N</SCGlassBottle>
+          <SCPlasticBottle>N</SCPlasticBottle>
+          <SCToteBin>N</SCToteBin>
+          <SCTankTruckTankWagon>N</SCTankTruckTankWagon>
+          <SCTankCarRailCar>N</SCTankCarRailCar>
+          <SCOther><![CDATA[N]]></SCOther>
+          <StoragePressure>a</StoragePressure>
+          <StorageTemperature>a</StorageTemperature>
+          <HC1PercentByWeight>100.00</HC1PercentByWeight>
+          <HC1EHS>N</HC1EHS>
+          <HC2PercentByWeight>100.00</HC2PercentByWeight>
+          <HC2EHS>N</HC2EHS>
+          <HC3PercentByWeight>100.00</HC3PercentByWeight>
+          <HC3EHS>N</HC3EHS>
+          <HC4PercentByWeight>100.00</HC4PercentByWeight>
+          <HC4EHS>N</HC4EHS>
+          <HC5PercentByWeight>100.00</HC5PercentByWeight>
+          <HC5EHS>N</HC5EHS>
+          <USEPASRSNumber>425009</USEPASRSNumber>
+          <ChemicalRegulatorKey>HZ0002767</ChemicalRegulatorKey>
+          <CERSUniqueKey>eb532018-6c77-48a0-a5a8-7a683232c1d0</CERSUniqueKey>
+        </Chemical>
+        <Chemical>
+          <ChemicalLocation><![CDATA[OMNI-THROPP;SAA]]></ChemicalLocation>
+          <CLConfidential>N</CLConfidential>
+          <ChemicalName><![CDATA[CRUDE OIL AND WATER]]></ChemicalName>
+          <TradeSecret>N</TradeSecret>
+          <CommonName><![CDATA[CRUDE OIL & WATER MIXTURE]]></CommonName>
+          <EHS>N</EHS>
+          <HMType>b</HMType>
+          <RadioActive>N</RadioActive>
+          <Curies>0</Curies>
+          <PhysicalState>b</PhysicalState>
+          <LargestContainer>21000</LargestContainer>
+          <FHCFire>Y</FHCFire>
+          <FHCReactive>N</FHCReactive>
+          <FHCPressureRelease>N</FHCPressureRelease>
+          <FHCAcuteHealth>N</FHCAcuteHealth>
+          <FHCChronicHealth>Y</FHCChronicHealth>
+          <AverageDailyAmount>2100</AverageDailyAmount>
+          <MaximumDailyAmount>2100</MaximumDailyAmount>
+          <Units>a</Units>
+          <DaysOnSite>365</DaysOnSite>
+          <SCAboveGroundTank>Y</SCAboveGroundTank>
+          <SCUnderGroundTank>N</SCUnderGroundTank>
+          <SCTankInsideBuilding>N</SCTankInsideBuilding>
+          <SCSteelDrum>N</SCSteelDrum>
+          <SCPlasticNonMetallicDrum>N</SCPlasticNonMetallicDrum>
+          <SCCan>N</SCCan>
+          <SCCarboy>N</SCCarboy>
+          <SCSilo>N</SCSilo>
+          <SCFiberDrum>N</SCFiberDrum>
+          <SCBag>N</SCBag>
+          <SCBox>N</SCBox>
+          <SCCylinder>N</SCCylinder>
+          <SCGlassBottle>N</SCGlassBottle>
+          <SCPlasticBottle>N</SCPlasticBottle>
+          <SCToteBin>N</SCToteBin>
+          <SCTankTruckTankWagon>N</SCTankTruckTankWagon>
+          <SCTankCarRailCar>N</SCTankCarRailCar>
+          <SCOther><![CDATA[N]]></SCOther>
+          <StoragePressure>a</StoragePressure>
+          <StorageTemperature>a</StorageTemperature>
+          <HC1PercentByWeight>100.00</HC1PercentByWeight>
+          <HC1EHS>N</HC1EHS>
+          <HC2PercentByWeight>100.00</HC2PercentByWeight>
+          <HC2EHS>N</HC2EHS>
+          <HC3PercentByWeight>100.00</HC3PercentByWeight>
+          <HC3EHS>N</HC3EHS>
+          <HC4PercentByWeight>100.00</HC4PercentByWeight>
+          <HC4EHS>N</HC4EHS>
+          <HC5PercentByWeight>100.00</HC5PercentByWeight>
+          <HC5EHS>N</HC5EHS>
+          <ChemicalRegulatorKey>HZ0002768</ChemicalRegulatorKey>
+          <CERSUniqueKey>b4acb960-292d-435d-b720-b7390c520a9f</CERSUniqueKey>
+        </Chemical>
+        <Chemical>
+          <ChemicalLocation><![CDATA[OXLEY FRY NO 1;S TANK]]></ChemicalLocation>
+          <CLConfidential>N</CLConfidential>
+          <ChemicalName><![CDATA[CRUDE OIL]]></ChemicalName>
+          <TradeSecret>N</TradeSecret>
+          <CommonName><![CDATA[CRUDE OIL]]></CommonName>
+          <EHS>N</EHS>
+          <CASNumber>68410-00-4</CASNumber>
+          <HMType>a</HMType>
+          <RadioActive>N</RadioActive>
+          <Curies>0</Curies>
+          <PhysicalState>b</PhysicalState>
+          <LargestContainer>500</LargestContainer>
+          <FHCFire>Y</FHCFire>
+          <FHCReactive>N</FHCReactive>
+          <FHCPressureRelease>N</FHCPressureRelease>
+          <FHCAcuteHealth>Y</FHCAcuteHealth>
+          <FHCChronicHealth>N</FHCChronicHealth>
+          <AverageDailyAmount>8400</AverageDailyAmount>
+          <MaximumDailyAmount>12600</MaximumDailyAmount>
+          <Units>a</Units>
+          <DaysOnSite>365</DaysOnSite>
+          <SCAboveGroundTank>Y</SCAboveGroundTank>
+          <SCUnderGroundTank>N</SCUnderGroundTank>
+          <SCTankInsideBuilding>N</SCTankInsideBuilding>
+          <SCSteelDrum>N</SCSteelDrum>
+          <SCPlasticNonMetallicDrum>N</SCPlasticNonMetallicDrum>
+          <SCCan>N</SCCan>
+          <SCCarboy>N</SCCarboy>
+          <SCSilo>N</SCSilo>
+          <SCFiberDrum>N</SCFiberDrum>
+          <SCBag>N</SCBag>
+          <SCBox>N</SCBox>
+          <SCCylinder>N</SCCylinder>
+          <SCGlassBottle>N</SCGlassBottle>
+          <SCPlasticBottle>N</SCPlasticBottle>
+          <SCToteBin>N</SCToteBin>
+          <SCTankTruckTankWagon>N</SCTankTruckTankWagon>
+          <SCTankCarRailCar>N</SCTankCarRailCar>
+          <SCOther><![CDATA[N]]></SCOther>
+          <StoragePressure>a</StoragePressure>
+          <StorageTemperature>a</StorageTemperature>
+          <HC1PercentByWeight>100.00</HC1PercentByWeight>
+          <HC1EHS>N</HC1EHS>
+          <USEPASRSNumber>425009</USEPASRSNumber>
+          <ChemicalRegulatorKey>HZ0002769</ChemicalRegulatorKey>
+          <CERSUniqueKey>6f268a54-30e6-4202-81d7-4b66c6265223</CERSUniqueKey>
+        </Chemical>
+        <Chemical>
+          <ChemicalLocation><![CDATA[OXLEY FRY NO 1;N TANK]]></ChemicalLocation>
+          <CLConfidential>N</CLConfidential>
+          <ChemicalName><![CDATA[CRUDE OIL AND WATER]]></ChemicalName>
+          <TradeSecret>N</TradeSecret>
+          <CommonName><![CDATA[CRUDE OIL & WATER]]></CommonName>
+          <EHS>N</EHS>
+          <HMType>b</HMType>
+          <RadioActive>N</RadioActive>
+          <Curies>0</Curies>
+          <PhysicalState>b</PhysicalState>
+          <LargestContainer>10500</LargestContainer>
+          <FHCFire>Y</FHCFire>
+          <FHCReactive>N</FHCReactive>
+          <FHCPressureRelease>N</FHCPressureRelease>
+          <FHCAcuteHealth>N</FHCAcuteHealth>
+          <FHCChronicHealth>N</FHCChronicHealth>
+          <AverageDailyAmount>2100</AverageDailyAmount>
+          <MaximumDailyAmount>2100</MaximumDailyAmount>
+          <Units>a</Units>
+          <DaysOnSite>365</DaysOnSite>
+          <SCAboveGroundTank>Y</SCAboveGroundTank>
+          <SCUnderGroundTank>N</SCUnderGroundTank>
+          <SCTankInsideBuilding>N</SCTankInsideBuilding>
+          <SCSteelDrum>N</SCSteelDrum>
+          <SCPlasticNonMetallicDrum>N</SCPlasticNonMetallicDrum>
+          <SCCan>N</SCCan>
+          <SCCarboy>N</SCCarboy>
+          <SCSilo>N</SCSilo>
+          <SCFiberDrum>N</SCFiberDrum>
+          <SCBag>N</SCBag>
+          <SCBox>N</SCBox>
+          <SCCylinder>N</SCCylinder>
+          <SCGlassBottle>N</SCGlassBottle>
+          <SCPlasticBottle>N</SCPlasticBottle>
+          <SCToteBin>N</SCToteBin>
+          <SCTankTruckTankWagon>N</SCTankTruckTankWagon>
+          <SCTankCarRailCar>N</SCTankCarRailCar>
+          <SCOther><![CDATA[N]]></SCOther>
+          <StoragePressure>a</StoragePressure>
+          <StorageTemperature>a</StorageTemperature>
+          <HC1PercentByWeight>100.00</HC1PercentByWeight>
+          <HC1Name><![CDATA[crude oil]]></HC1Name>
+          <HC1EHS>N</HC1EHS>
+          <ChemicalRegulatorKey>HZ0002770</ChemicalRegulatorKey>
+          <CERSUniqueKey>9c9e8f0d-2010-42c2-8cf8-8d86720f2b36</CERSUniqueKey>
+        </Chemical>
+        <Chemical>
+          <ChemicalLocation><![CDATA[OXLEY FRY NO 1;E TANK]]></ChemicalLocation>
+          <CLConfidential>N</CLConfidential>
+          <ChemicalName><![CDATA[CRUDE OIL]]></ChemicalName>
+          <TradeSecret>N</TradeSecret>
+          <CommonName><![CDATA[CRUDE OIL]]></CommonName>
+          <EHS>N</EHS>
+          <CASNumber>68410-00-4</CASNumber>
+          <HMType>a</HMType>
+          <RadioActive>N</RadioActive>
+          <Curies>0</Curies>
+          <PhysicalState>b</PhysicalState>
+          <LargestContainer>200</LargestContainer>
+          <FHCFire>Y</FHCFire>
+          <FHCReactive>N</FHCReactive>
+          <FHCPressureRelease>N</FHCPressureRelease>
+          <FHCAcuteHealth>N</FHCAcuteHealth>
+          <FHCChronicHealth>N</FHCChronicHealth>
+          <AverageDailyAmount>7350</AverageDailyAmount>
+          <MaximumDailyAmount>7350</MaximumDailyAmount>
+          <Units>a</Units>
+          <DaysOnSite>365</DaysOnSite>
+          <SCAboveGroundTank>Y</SCAboveGroundTank>
+          <SCUnderGroundTank>N</SCUnderGroundTank>
+          <SCTankInsideBuilding>N</SCTankInsideBuilding>
+          <SCSteelDrum>N</SCSteelDrum>
+          <SCPlasticNonMetallicDrum>N</SCPlasticNonMetallicDrum>
+          <SCCan>N</SCCan>
+          <SCCarboy>N</SCCarboy>
+          <SCSilo>N</SCSilo>
+          <SCFiberDrum>N</SCFiberDrum>
+          <SCBag>N</SCBag>
+          <SCBox>N</SCBox>
+          <SCCylinder>N</SCCylinder>
+          <SCGlassBottle>N</SCGlassBottle>
+          <SCPlasticBottle>N</SCPlasticBottle>
+          <SCToteBin>N</SCToteBin>
+          <SCTankTruckTankWagon>N</SCTankTruckTankWagon>
+          <SCTankCarRailCar>N</SCTankCarRailCar>
+          <SCOther><![CDATA[N]]></SCOther>
+          <StoragePressure>a</StoragePressure>
+          <StorageTemperature>a</StorageTemperature>
+          <HC1PercentByWeight>100.00</HC1PercentByWeight>
+          <HC1Name><![CDATA[crude oil]]></HC1Name>
+          <HC1EHS>N</HC1EHS>
+          <USEPASRSNumber>425009</USEPASRSNumber>
+          <ChemicalRegulatorKey>HZ0002771</ChemicalRegulatorKey>
+          <CERSUniqueKey>ada9009e-1fab-4a88-8417-a71a8c548b8b</CERSUniqueKey>
+        </Chemical>
+        <Chemical>
+          <ChemicalLocation><![CDATA[MOHAWK-DOUGLAS;N TANK]]></ChemicalLocation>
+          <CLConfidential>N</CLConfidential>
+          <ChemicalName><![CDATA[CRUDE OIL]]></ChemicalName>
+          <TradeSecret>N</TradeSecret>
+          <CommonName><![CDATA[CRUDE OIL]]></CommonName>
+          <EHS>N</EHS>
+          <CASNumber>68410-00-4</CASNumber>
+          <HMType>a</HMType>
+          <RadioActive>N</RadioActive>
+          <Curies>0</Curies>
+          <PhysicalState>b</PhysicalState>
+          <LargestContainer>8400</LargestContainer>
+          <FHCFire>Y</FHCFire>
+          <FHCReactive>N</FHCReactive>
+          <FHCPressureRelease>N</FHCPressureRelease>
+          <FHCAcuteHealth>N</FHCAcuteHealth>
+          <FHCChronicHealth>N</FHCChronicHealth>
+          <AverageDailyAmount>4200</AverageDailyAmount>
+          <MaximumDailyAmount>6300</MaximumDailyAmount>
+          <Units>a</Units>
+          <DaysOnSite>365</DaysOnSite>
+          <SCAboveGroundTank>Y</SCAboveGroundTank>
+          <SCUnderGroundTank>N</SCUnderGroundTank>
+          <SCTankInsideBuilding>N</SCTankInsideBuilding>
+          <SCSteelDrum>N</SCSteelDrum>
+          <SCPlasticNonMetallicDrum>N</SCPlasticNonMetallicDrum>
+          <SCCan>N</SCCan>
+          <SCCarboy>N</SCCarboy>
+          <SCSilo>N</SCSilo>
+          <SCFiberDrum>N</SCFiberDrum>
+          <SCBag>N</SCBag>
+          <SCBox>N</SCBox>
+          <SCCylinder>N</SCCylinder>
+          <SCGlassBottle>N</SCGlassBottle>
+          <SCPlasticBottle>N</SCPlasticBottle>
+          <SCToteBin>N</SCToteBin>
+          <SCTankTruckTankWagon>N</SCTankTruckTankWagon>
+          <SCTankCarRailCar>N</SCTankCarRailCar>
+          <SCOther><![CDATA[N]]></SCOther>
+          <StoragePressure>a</StoragePressure>
+          <StorageTemperature>a</StorageTemperature>
+          <HC1PercentByWeight>100.00</HC1PercentByWeight>
+          <HC1Name><![CDATA[crude oil]]></HC1Name>
+          <HC1EHS>N</HC1EHS>
+          <USEPASRSNumber>425009</USEPASRSNumber>
+          <ChemicalRegulatorKey>HZ0002772</ChemicalRegulatorKey>
+          <CERSUniqueKey>1d088d92-7ad0-4a8d-929a-af1d2c24c064</CERSUniqueKey>
+        </Chemical>
+        <Chemical>
+          <ChemicalLocation><![CDATA[MOHAWK-DOUGLAS;S TANK]]></ChemicalLocation>
+          <CLConfidential>N</CLConfidential>
+          <ChemicalName><![CDATA[CRUDE OIL AND WATER]]></ChemicalName>
+          <TradeSecret>N</TradeSecret>
+          <CommonName><![CDATA[CRUDE OIL & WATER MIXTURE]]></CommonName>
+          <EHS>N</EHS>
+          <HMType>b</HMType>
+          <RadioActive>N</RadioActive>
+          <Curies>0</Curies>
+          <PhysicalState>b</PhysicalState>
+          <LargestContainer>10500</LargestContainer>
+          <FHCFire>Y</FHCFire>
+          <FHCReactive>N</FHCReactive>
+          <FHCPressureRelease>N</FHCPressureRelease>
+          <FHCAcuteHealth>N</FHCAcuteHealth>
+          <FHCChronicHealth>N</FHCChronicHealth>
+          <AverageDailyAmount>2100</AverageDailyAmount>
+          <MaximumDailyAmount>21000</MaximumDailyAmount>
+          <Units>a</Units>
+          <DaysOnSite>365</DaysOnSite>
+          <SCAboveGroundTank>Y</SCAboveGroundTank>
+          <SCUnderGroundTank>N</SCUnderGroundTank>
+          <SCTankInsideBuilding>N</SCTankInsideBuilding>
+          <SCSteelDrum>N</SCSteelDrum>
+          <SCPlasticNonMetallicDrum>N</SCPlasticNonMetallicDrum>
+          <SCCan>N</SCCan>
+          <SCCarboy>N</SCCarboy>
+          <SCSilo>N</SCSilo>
+          <SCFiberDrum>N</SCFiberDrum>
+          <SCBag>N</SCBag>
+          <SCBox>N</SCBox>
+          <SCCylinder>N</SCCylinder>
+          <SCGlassBottle>N</SCGlassBottle>
+          <SCPlasticBottle>N</SCPlasticBottle>
+          <SCToteBin>N</SCToteBin>
+          <SCTankTruckTankWagon>N</SCTankTruckTankWagon>
+          <SCTankCarRailCar>N</SCTankCarRailCar>
+          <SCOther><![CDATA[N]]></SCOther>
+          <StoragePressure>a</StoragePressure>
+          <StorageTemperature>a</StorageTemperature>
+          <HC1PercentByWeight>100.00</HC1PercentByWeight>
+          <HC1Name><![CDATA[crude oil]]></HC1Name>
+          <HC1EHS>N</HC1EHS>
+          <ChemicalRegulatorKey>HZ0002773</ChemicalRegulatorKey>
+          <CERSUniqueKey>6620aa84-4879-4d5f-9886-ee9c66185f0a</CERSUniqueKey>
+        </Chemical>
+        <Chemical>
+          <ChemicalLocation><![CDATA[FRUITVALE COMMUNITY;E TANK]]></ChemicalLocation>
+          <CLConfidential>N</CLConfidential>
+          <ChemicalName><![CDATA[CRUDE OIL]]></ChemicalName>
+          <TradeSecret>N</TradeSecret>
+          <CommonName><![CDATA[CRUDE OIL]]></CommonName>
+          <EHS>N</EHS>
+          <CASNumber>68410-00-4</CASNumber>
+          <HMType>a</HMType>
+          <RadioActive>N</RadioActive>
+          <Curies>0</Curies>
+          <PhysicalState>b</PhysicalState>
+          <LargestContainer>250</LargestContainer>
+          <FHCFire>Y</FHCFire>
+          <FHCReactive>N</FHCReactive>
+          <FHCPressureRelease>N</FHCPressureRelease>
+          <FHCAcuteHealth>N</FHCAcuteHealth>
+          <FHCChronicHealth>N</FHCChronicHealth>
+          <AverageDailyAmount>100</AverageDailyAmount>
+          <MaximumDailyAmount>140</MaximumDailyAmount>
+          <Units>a</Units>
+          <DaysOnSite>365</DaysOnSite>
+          <SCAboveGroundTank>Y</SCAboveGroundTank>
+          <SCUnderGroundTank>N</SCUnderGroundTank>
+          <SCTankInsideBuilding>N</SCTankInsideBuilding>
+          <SCSteelDrum>N</SCSteelDrum>
+          <SCPlasticNonMetallicDrum>N</SCPlasticNonMetallicDrum>
+          <SCCan>N</SCCan>
+          <SCCarboy>N</SCCarboy>
+          <SCSilo>N</SCSilo>
+          <SCFiberDrum>N</SCFiberDrum>
+          <SCBag>N</SCBag>
+          <SCBox>N</SCBox>
+          <SCCylinder>N</SCCylinder>
+          <SCGlassBottle>N</SCGlassBottle>
+          <SCPlasticBottle>N</SCPlasticBottle>
+          <SCToteBin>N</SCToteBin>
+          <SCTankTruckTankWagon>N</SCTankTruckTankWagon>
+          <SCTankCarRailCar>N</SCTankCarRailCar>
+          <SCOther><![CDATA[N]]></SCOther>
+          <StoragePressure>a</StoragePressure>
+          <StorageTemperature>a</StorageTemperature>
+          <HC1PercentByWeight>100.00</HC1PercentByWeight>
+          <HC1Name><![CDATA[crude oil]]></HC1Name>
+          <HC1EHS>N</HC1EHS>
+          <USEPASRSNumber>425009</USEPASRSNumber>
+          <ChemicalRegulatorKey>HZ0002774</ChemicalRegulatorKey>
+          <CERSUniqueKey>711768d5-cfe2-4dc9-a2cb-f15c9da6b924</CERSUniqueKey>
+        </Chemical>
+        <Chemical>
+          <ChemicalLocation><![CDATA[FRUITVALE COMMUNITY;W TANK]]></ChemicalLocation>
+          <CLConfidential>N</CLConfidential>
+          <ChemicalName><![CDATA[CRUDE OIL AND WATER]]></ChemicalName>
+          <TradeSecret>N</TradeSecret>
+          <CommonName><![CDATA[CRUDE OIL & WATER MIXTURE]]></CommonName>
+          <EHS>N</EHS>
+          <HMType>b</HMType>
+          <RadioActive>N</RadioActive>
+          <Curies>0</Curies>
+          <PhysicalState>b</PhysicalState>
+          <LargestContainer>10500</LargestContainer>
+          <FHCFire>Y</FHCFire>
+          <FHCReactive>N</FHCReactive>
+          <FHCPressureRelease>N</FHCPressureRelease>
+          <FHCAcuteHealth>N</FHCAcuteHealth>
+          <FHCChronicHealth>N</FHCChronicHealth>
+          <AverageDailyAmount>2100</AverageDailyAmount>
+          <MaximumDailyAmount>2100</MaximumDailyAmount>
+          <Units>a</Units>
+          <DaysOnSite>365</DaysOnSite>
+          <SCAboveGroundTank>Y</SCAboveGroundTank>
+          <SCUnderGroundTank>N</SCUnderGroundTank>
+          <SCTankInsideBuilding>N</SCTankInsideBuilding>
+          <SCSteelDrum>N</SCSteelDrum>
+          <SCPlasticNonMetallicDrum>N</SCPlasticNonMetallicDrum>
+          <SCCan>N</SCCan>
+          <SCCarboy>N</SCCarboy>
+          <SCSilo>N</SCSilo>
+          <SCFiberDrum>N</SCFiberDrum>
+          <SCBag>N</SCBag>
+          <SCBox>N</SCBox>
+          <SCCylinder>N</SCCylinder>
+          <SCGlassBottle>N</SCGlassBottle>
+          <SCPlasticBottle>N</SCPlasticBottle>
+          <SCToteBin>N</SCToteBin>
+          <SCTankTruckTankWagon>N</SCTankTruckTankWagon>
+          <SCTankCarRailCar>N</SCTankCarRailCar>
+          <SCOther><![CDATA[N]]></SCOther>
+          <StoragePressure>a</StoragePressure>
+          <StorageTemperature>a</StorageTemperature>
+          <HC1PercentByWeight>100.00</HC1PercentByWeight>
+          <HC1Name><![CDATA[crude oil]]></HC1Name>
+          <HC1EHS>N</HC1EHS>
+          <ChemicalRegulatorKey>HZ0002775</ChemicalRegulatorKey>
+          <CERSUniqueKey>e9c6c6c1-89e5-49e8-af27-8a370d9e5b9a</CERSUniqueKey>
+        </Chemical>
+        <Chemical>
+          <ChemicalLocation><![CDATA[KCL 73 FRUITVALE;W TANK]]></ChemicalLocation>
+          <CLConfidential>N</CLConfidential>
+          <ChemicalName><![CDATA[CRUDE OIL]]></ChemicalName>
+          <TradeSecret>N</TradeSecret>
+          <CommonName><![CDATA[CRUDE OIL]]></CommonName>
+          <EHS>N</EHS>
+          <CASNumber>68410-00-4</CASNumber>
+          <HMType>a</HMType>
+          <RadioActive>N</RadioActive>
+          <Curies>0</Curies>
+          <PhysicalState>b</PhysicalState>
+          <LargestContainer>10500</LargestContainer>
+          <FHCFire>Y</FHCFire>
+          <FHCReactive>N</FHCReactive>
+          <FHCPressureRelease>N</FHCPressureRelease>
+          <FHCAcuteHealth>N</FHCAcuteHealth>
+          <FHCChronicHealth>N</FHCChronicHealth>
+          <AverageDailyAmount>4200</AverageDailyAmount>
+          <MaximumDailyAmount>5880</MaximumDailyAmount>
+          <Units>a</Units>
+          <DaysOnSite>365</DaysOnSite>
+          <SCAboveGroundTank>Y</SCAboveGroundTank>
+          <SCUnderGroundTank>N</SCUnderGroundTank>
+          <SCTankInsideBuilding>N</SCTankInsideBuilding>
+          <SCSteelDrum>N</SCSteelDrum>
+          <SCPlasticNonMetallicDrum>N</SCPlasticNonMetallicDrum>
+          <SCCan>N</SCCan>
+          <SCCarboy>N</SCCarboy>
+          <SCSilo>N</SCSilo>
+          <SCFiberDrum>N</SCFiberDrum>
+          <SCBag>N</SCBag>
+          <SCBox>N</SCBox>
+          <SCCylinder>N</SCCylinder>
+          <SCGlassBottle>N</SCGlassBottle>
+          <SCPlasticBottle>N</SCPlasticBottle>
+          <SCToteBin>N</SCToteBin>
+          <SCTankTruckTankWagon>N</SCTankTruckTankWagon>
+          <SCTankCarRailCar>N</SCTankCarRailCar>
+          <SCOther><![CDATA[N]]></SCOther>
+          <StoragePressure>a</StoragePressure>
+          <StorageTemperature>a</StorageTemperature>
+          <HC1PercentByWeight>100.00</HC1PercentByWeight>
+          <HC1Name><![CDATA[crude oil]]></HC1Name>
+          <HC1EHS>N</HC1EHS>
+          <USEPASRSNumber>425009</USEPASRSNumber>
+          <ChemicalRegulatorKey>HZ0002776</ChemicalRegulatorKey>
+          <CERSUniqueKey>e4877cf4-9c91-469f-ad79-3530662696bd</CERSUniqueKey>
+        </Chemical>
+        <Chemical>
+          <ChemicalLocation><![CDATA[KCL 73 FRUITVALE;E TANK]]></ChemicalLocation>
+          <CLConfidential>N</CLConfidential>
+          <ChemicalName><![CDATA[CRUDE OIL AND WATER]]></ChemicalName>
+          <TradeSecret>N</TradeSecret>
+          <CommonName><![CDATA[CRUDE OIL & WATER MIXTURE]]></CommonName>
+          <EHS>N</EHS>
+          <HMType>b</HMType>
+          <RadioActive>N</RadioActive>
+          <Curies>0</Curies>
+          <PhysicalState>b</PhysicalState>
+          <LargestContainer>8400</LargestContainer>
+          <FHCFire>Y</FHCFire>
+          <FHCReactive>N</FHCReactive>
+          <FHCPressureRelease>N</FHCPressureRelease>
+          <FHCAcuteHealth>N</FHCAcuteHealth>
+          <FHCChronicHealth>N</FHCChronicHealth>
+          <AverageDailyAmount>3150</AverageDailyAmount>
+          <MaximumDailyAmount>3150</MaximumDailyAmount>
+          <Units>a</Units>
+          <DaysOnSite>365</DaysOnSite>
+          <SCAboveGroundTank>Y</SCAboveGroundTank>
+          <SCUnderGroundTank>N</SCUnderGroundTank>
+          <SCTankInsideBuilding>N</SCTankInsideBuilding>
+          <SCSteelDrum>N</SCSteelDrum>
+          <SCPlasticNonMetallicDrum>N</SCPlasticNonMetallicDrum>
+          <SCCan>N</SCCan>
+          <SCCarboy>N</SCCarboy>
+          <SCSilo>N</SCSilo>
+          <SCFiberDrum>N</SCFiberDrum>
+          <SCBag>N</SCBag>
+          <SCBox>N</SCBox>
+          <SCCylinder>N</SCCylinder>
+          <SCGlassBottle>N</SCGlassBottle>
+          <SCPlasticBottle>N</SCPlasticBottle>
+          <SCToteBin>N</SCToteBin>
+          <SCTankTruckTankWagon>N</SCTankTruckTankWagon>
+          <SCTankCarRailCar>N</SCTankCarRailCar>
+          <SCOther><![CDATA[N]]></SCOther>
+          <StoragePressure>a</StoragePressure>
+          <StorageTemperature>a</StorageTemperature>
+          <HC1PercentByWeight>100.00</HC1PercentByWeight>
+          <HC1Name><![CDATA[crude oil]]></HC1Name>
+          <HC1EHS>N</HC1EHS>
+          <ChemicalRegulatorKey>HZ0002777</ChemicalRegulatorKey>
+          <CERSUniqueKey>092d6933-6206-4230-96be-09b26ff08243</CERSUniqueKey>
+        </Chemical>
+        <Chemical>
+          <ChemicalLocation><![CDATA[ECHINIQUE LEASE;SEC 29 29S/22E]]></ChemicalLocation>
+          <CLConfidential>N</CLConfidential>
+          <ChemicalName><![CDATA[CRUDE OIL]]></ChemicalName>
+          <TradeSecret>N</TradeSecret>
+          <CommonName><![CDATA[CRUDE OIL]]></CommonName>
+          <EHS>N</EHS>
+          <CASNumber>68410-00-4</CASNumber>
+          <HMType>a</HMType>
+          <RadioActive>N</RadioActive>
+          <Curies>0</Curies>
+          <PhysicalState>b</PhysicalState>
+          <LargestContainer>10500</LargestContainer>
+          <FHCFire>Y</FHCFire>
+          <FHCReactive>N</FHCReactive>
+          <FHCPressureRelease>N</FHCPressureRelease>
+          <FHCAcuteHealth>N</FHCAcuteHealth>
+          <FHCChronicHealth>N</FHCChronicHealth>
+          <AverageDailyAmount>3150</AverageDailyAmount>
+          <MaximumDailyAmount>6300</MaximumDailyAmount>
+          <Units>a</Units>
+          <DaysOnSite>365</DaysOnSite>
+          <SCAboveGroundTank>Y</SCAboveGroundTank>
+          <SCUnderGroundTank>N</SCUnderGroundTank>
+          <SCTankInsideBuilding>N</SCTankInsideBuilding>
+          <SCSteelDrum>N</SCSteelDrum>
+          <SCPlasticNonMetallicDrum>N</SCPlasticNonMetallicDrum>
+          <SCCan>N</SCCan>
+          <SCCarboy>N</SCCarboy>
+          <SCSilo>N</SCSilo>
+          <SCFiberDrum>N</SCFiberDrum>
+          <SCBag>N</SCBag>
+          <SCBox>N</SCBox>
+          <SCCylinder>N</SCCylinder>
+          <SCGlassBottle>N</SCGlassBottle>
+          <SCPlasticBottle>N</SCPlasticBottle>
+          <SCToteBin>N</SCToteBin>
+          <SCTankTruckTankWagon>N</SCTankTruckTankWagon>
+          <SCTankCarRailCar>N</SCTankCarRailCar>
+          <SCOther><![CDATA[N]]></SCOther>
+          <StoragePressure>a</StoragePressure>
+          <StorageTemperature>a</StorageTemperature>
+          <HC1PercentByWeight>100.00</HC1PercentByWeight>
+          <HC1Name><![CDATA[crude oil]]></HC1Name>
+          <HC1EHS>N</HC1EHS>
+          <USEPASRSNumber>425009</USEPASRSNumber>
+          <ChemicalRegulatorKey>HZ0002778</ChemicalRegulatorKey>
+          <CERSUniqueKey>00870c28-0244-4565-a665-f1f652e3a8f0</CERSUniqueKey>
+        </Chemical>
+        <Chemical>
+          <ChemicalLocation><![CDATA[ECHINIQUE LEASE;SA]]></ChemicalLocation>
+          <CLConfidential>N</CLConfidential>
+          <ChemicalName><![CDATA[CRUDE OIL AND WATER]]></ChemicalName>
+          <TradeSecret>N</TradeSecret>
+          <CommonName><![CDATA[CRUDE OIL & WATER MIXTURE]]></CommonName>
+          <EHS>N</EHS>
+          <HMType>b</HMType>
+          <RadioActive>N</RadioActive>
+          <Curies>0</Curies>
+          <PhysicalState>b</PhysicalState>
+          <LargestContainer>8400</LargestContainer>
+          <FHCFire>Y</FHCFire>
+          <FHCReactive>N</FHCReactive>
+          <FHCPressureRelease>N</FHCPressureRelease>
+          <FHCAcuteHealth>N</FHCAcuteHealth>
+          <FHCChronicHealth>N</FHCChronicHealth>
+          <AverageDailyAmount>2100</AverageDailyAmount>
+          <MaximumDailyAmount>2100</MaximumDailyAmount>
+          <Units>a</Units>
+          <DaysOnSite>365</DaysOnSite>
+          <SCAboveGroundTank>Y</SCAboveGroundTank>
+          <SCUnderGroundTank>N</SCUnderGroundTank>
+          <SCTankInsideBuilding>N</SCTankInsideBuilding>
+          <SCSteelDrum>N</SCSteelDrum>
+          <SCPlasticNonMetallicDrum>N</SCPlasticNonMetallicDrum>
+          <SCCan>N</SCCan>
+          <SCCarboy>N</SCCarboy>
+          <SCSilo>N</SCSilo>
+          <SCFiberDrum>N</SCFiberDrum>
+          <SCBag>N</SCBag>
+          <SCBox>N</SCBox>
+          <SCCylinder>N</SCCylinder>
+          <SCGlassBottle>N</SCGlassBottle>
+          <SCPlasticBottle>N</SCPlasticBottle>
+          <SCToteBin>N</SCToteBin>
+          <SCTankTruckTankWagon>N</SCTankTruckTankWagon>
+          <SCTankCarRailCar>N</SCTankCarRailCar>
+          <SCOther><![CDATA[N]]></SCOther>
+          <StoragePressure>a</StoragePressure>
+          <StorageTemperature>a</StorageTemperature>
+          <HC1PercentByWeight>100.00</HC1PercentByWeight>
+          <HC1Name><![CDATA[crude oil]]></HC1Name>
+          <HC1EHS>N</HC1EHS>
+          <ChemicalRegulatorKey>HZ0002779</ChemicalRegulatorKey>
+          <CERSUniqueKey>08900b88-cebe-4de0-82d2-e7974bc022bf</CERSUniqueKey>
+        </Chemical>
+      </Chemicals>
+      <SiteMaps>
+        <SiteMap>
+          <SiteMapDocument>
+            <Attachments>
+              <Attachment>
+                <AttachmentFileName>Facility maps.pdf</AttachmentFileName>
+                <DocumentTitle><![CDATA[Annotated Site Map (Official Use Only)]]></DocumentTitle>
+                <DocumentDescription />
+                <DateAuthored>2013-12-31T08:00:00Z</DateAuthored>
+                <DocumentRegulatorKey>80037808-953c-4d2c-bbf5-ec41962bdd58</DocumentRegulatorKey>
+                <CERSUniqueKey>d135cfbc-4ce3-4a8c-b9c4-c0029079814b</CERSUniqueKey>
+              </Attachment>
+            </Attachments>
+          </SiteMapDocument>
+        </SiteMap>
+      </SiteMaps>
+    </HazardousMaterialsInventory>
+    <EmergencyResponseTrainingPlans>
+      <SubmittalElementHeader>
+        <SubmittedOn>2014-01-02T05:23:24Z</SubmittedOn>
+        <SubmittedByFirstName><![CDATA[TOM]]></SubmittedByFirstName>
+        <SubmittedByLastName><![CDATA[LADD]]></SubmittedByLastName>
+        <SubmittedByEmail><![CDATA[twladd@AOL.com]]></SubmittedByEmail>
+        <RegulatorCode>1500</RegulatorCode>
+        <SubmittalStatus>2</SubmittalStatus>
+        <SubmittalActionDetails>
+          <SubmittalActionOn></SubmittalActionOn>
+          <SubmittalActionAgentName />
+          <SubmittalActionAgentEmail />
+          <SubmittalActionComments />
+        </SubmittalActionDetails>
+        <CERSUniqueKey>f1440d4f-4bc6-4425-88d5-fa55ac5ae9fb</CERSUniqueKey>
+      </SubmittalElementHeader>
+      <EmergencyResponseContingencyPlans>
+        <EmergencyResponseContingencyPlan>
+          <EmergencyResponseContingencyPlanDocument>
+            <Attachments>
+              <Attachment>
+                <AttachmentFileName>Contingency Plan Central.pdf</AttachmentFileName>
+                <DocumentTitle><![CDATA[Emergency Response/Contingency Plan]]></DocumentTitle>
+                <DocumentDescription />
+                <DateAuthored>2013-12-31T08:00:00Z</DateAuthored>
+                <DocumentRegulatorKey>47a2fc39-d265-464f-bf3a-15368ad0d7b4</DocumentRegulatorKey>
+                <CERSUniqueKey>df139250-9315-45cf-960c-df508b120503</CERSUniqueKey>
+              </Attachment>
+            </Attachments>
+          </EmergencyResponseContingencyPlanDocument>
+        </EmergencyResponseContingencyPlan>
+      </EmergencyResponseContingencyPlans>
+      <EmployeeTrainingPlans>
+        <EmployeeTrainingPlan>
+          <EmployeeTrainingPlanDocument>
+            <Attachments>
+              <Attachment>
+                <AttachmentFileName>EMPLOYEE TRAINING PLAN.pdf</AttachmentFileName>
+                <DocumentTitle><![CDATA[Employee Training Plan]]></DocumentTitle>
+                <DocumentDescription />
+                <DateAuthored>2013-12-31T08:00:00Z</DateAuthored>
+                <DocumentRegulatorKey>3db5da49-1715-4141-bb98-9238c7d7cb88</DocumentRegulatorKey>
+                <CERSUniqueKey>22c229f2-da24-4409-b4fd-84e4b25a841d</CERSUniqueKey>
+              </Attachment>
+            </Attachments>
+          </EmployeeTrainingPlanDocument>
+        </EmployeeTrainingPlan>
+      </EmployeeTrainingPlans>
+    </EmergencyResponseTrainingPlans>
+  </FacilitySubmittal>
+  <FacilitySubmittal>
+    <CERSID>10231816</CERSID>
+    <CERSOrganization>
+      <OrganizationCode>90198871</OrganizationCode>
+      <OrganizationName><![CDATA[Baker Hughes Inc.]]></OrganizationName>
+    </CERSOrganization>
+    <FacilityID></FacilityID>
+    <FacilityRegulatorKey>FA0000949</FacilityRegulatorKey>
+    <FacilityInformation>
+      <SubmittalElementHeader>
+        <SubmittedOn>2014-01-01T21:26:23Z</SubmittedOn>
+        <SubmittedByFirstName><![CDATA[Bruce]]></SubmittedByFirstName>
+        <SubmittedByLastName><![CDATA[Hinsley]]></SubmittedByLastName>
+        <SubmittedByEmail><![CDATA[bruce@advancedcompliance.us]]></SubmittedByEmail>
+        <RegulatorCode>1500</RegulatorCode>
+        <SubmittalStatus>4</SubmittalStatus>
+        <SubmittalActionDetails>
+          <SubmittalActionOn>2014-01-03T23:18:36Z</SubmittalActionOn>
+          <SubmittalActionAgentName><![CDATA[KORINB]]></SubmittalActionAgentName>
+          <SubmittalActionAgentEmail><![CDATA[KORINB]]></SubmittalActionAgentEmail>
+          <SubmittalActionComments></SubmittalActionComments>
+        </SubmittalActionDetails>
+        <CERSUniqueKey>7fd12b7c-0715-4db9-b888-534bfbedb806</CERSUniqueKey>
+      </SubmittalElementHeader>
+      <BusinessActivities>
+        <BusinessName><![CDATA[Baker Hughes Oilfield Operations, Inc.]]></BusinessName>
+        <SiteAddress><![CDATA[1431 S UNION AVE]]></SiteAddress>
+        <City><![CDATA[BAKERSFIELD]]></City>
+        <ZipCode>93307</ZipCode>
+        <CountyID>15</CountyID>
+        <HMOnSite>Y</HMOnSite>
+        <CalARPRegulatedSubstances>N</CalARPRegulatedSubstances>
+        <OwnOrOperateUST>Y</OwnOrOperateUST>
+        <OwnOrOperateAPST>N</OwnOrOperateAPST>
+        <HWGenerator>N</HWGenerator>
+        <Recycle>N</Recycle>
+        <OnsiteHWTreatment>N</OnsiteHWTreatment>
+        <FinancialAssurance>N</FinancialAssurance>
+        <RWConsolidationSite>N</RWConsolidationSite>
+        <HWTankClosure>N</HWTankClosure>
+        <RCRALargeQuantityGenerator>N</RCRALargeQuantityGenerator>
+        <HHWCollection>N</HHWCollection>
+        <CERSUniqueKey>00f9c9f0-2686-41f7-aaa1-616753eb435a</CERSUniqueKey>
+      </BusinessActivities>
+      <OwnerOperatorInformation>
+        <BeginningDate>2014-01-01</BeginningDate>
+        <EndingDate>2015-01-01</EndingDate>
+        <Phone>(713) 439 8045</Phone>
+        <SICCode>1389</SICCode>
+        <MailingAddress><![CDATA[17021 Aldine Westfield]]></MailingAddress>
+        <MailingAddressCity><![CDATA[Houston]]></MailingAddressCity>
+        <MailingAddressState>TX</MailingAddressState>
+        <MailingAddressZipCode> 77382</MailingAddressZipCode>
+        <OperatorName><![CDATA[Baker Hughes Oilfield Operations, Inc.]]></OperatorName>
+        <OperatorPhone>(713) 439 8045</OperatorPhone>
+        <OwnerName><![CDATA[Baker Hughes Oilfield Operations, Inc.]]></OwnerName>
+        <OwnerPhone>(713) 439 8045</OwnerPhone>
+        <OwnerMailAddress><![CDATA[17021 Aldine Westfield]]></OwnerMailAddress>
+        <OwnerCity><![CDATA[Houston  ]]></OwnerCity>
+        <OwnerState>TX</OwnerState>
+        <OwnerZipCode> 77382</OwnerZipCode>
+        <OwnerCountry>United States</OwnerCountry>
+        <EContactName><![CDATA[Ron Rowbottom]]></EContactName>
+        <EContactPhone>(713) 439 8045 </EContactPhone>
+        <EContactMailingAddress><![CDATA[17021 Aldine Westfield]]></EContactMailingAddress>
+        <EContactEmailAddress><![CDATA[Ron.Rowbottom@bakerhughes.com]]></EContactEmailAddress>
+        <EContactCity><![CDATA[Houston]]></EContactCity>
+        <EContactState>TX</EContactState>
+        <EContactZipCode> 77382</EContactZipCode>
+        <EContactCountry>United States</EContactCountry>
+        <PECName><![CDATA[Ron Rowbottom]]></PECName>
+        <PECTitle><![CDATA[Environmental Programs Manager]]></PECTitle>
+        <PECBusinessPhone>((713) 439 8045 </PECBusinessPhone>
+        <PEC24HrPhone>(918) 510 5749 </PEC24HrPhone>
+        <DocumentPreparerName><![CDATA[Bruce W. Hinsley]]></DocumentPreparerName>
+        <IdentificationSignerName><![CDATA[Bruce W. Hinsley]]></IdentificationSignerName>
+        <IdentificationSignerTitle><![CDATA[Contractor]]></IdentificationSignerTitle>
+        <BillingContactName><![CDATA[Baker Hughes Oilfield Operations, Inc.]]></BillingContactName>
+        <BillingContactPhone>(713) 439 8045</BillingContactPhone>
+        <BillingAddress><![CDATA[17021 Aldine Westfield]]></BillingAddress>
+        <BillingAddressCity><![CDATA[Houston]]></BillingAddressCity>
+        <BillingAddressState>TX</BillingAddressState>
+        <BillingAddressZipCode> 77382</BillingAddressZipCode>
+        <BillingAddressCountry>United States</BillingAddressCountry>
+        <AssessorParcelNumber>16629206</AssessorParcelNumber>
+        <NumberOfEmployees>0</NumberOfEmployees>
+        <CERSUniqueKey>40094eb9-89b5-4839-bf03-6f37e31f4a9e</CERSUniqueKey>
+      </OwnerOperatorInformation>
+    </FacilityInformation>
+    <HazardousMaterialsInventory>
+      <SubmittalElementHeader>
+        <SubmittedOn>2014-01-01T21:26:23Z</SubmittedOn>
+        <SubmittedByFirstName><![CDATA[Bruce]]></SubmittedByFirstName>
+        <SubmittedByLastName><![CDATA[Hinsley]]></SubmittedByLastName>
+        <SubmittedByEmail><![CDATA[bruce@advancedcompliance.us]]></SubmittedByEmail>
+        <RegulatorCode>1500</RegulatorCode>
+        <SubmittalStatus>4</SubmittalStatus>
+        <SubmittalActionDetails>
+          <SubmittalActionOn>2014-01-03T23:18:41Z</SubmittalActionOn>
+          <SubmittalActionAgentName><![CDATA[KORINB]]></SubmittalActionAgentName>
+          <SubmittalActionAgentEmail><![CDATA[KORINB]]></SubmittalActionAgentEmail>
+          <SubmittalActionComments></SubmittalActionComments>
+        </SubmittalActionDetails>
+        <CERSUniqueKey>7a6d1a70-abf8-4c55-8c0d-e78cec06d885</CERSUniqueKey>
+      </SubmittalElementHeader>
+      <Chemicals>
+        <Chemical>
+          <CCLID>102843</CCLID>
+          <ChemicalLocation><![CDATA[UNION YARD;U/G TANK NW OF ISLAND]]></ChemicalLocation>
+          <ChemicalName><![CDATA[Diesel Fuel]]></ChemicalName>
+          <TradeSecret>N</TradeSecret>
+          <CommonName><![CDATA[DIESEL]]></CommonName>
+          <EHS>N</EHS>
+          <CASNumber>68334-30-5</CASNumber>
+          <PFCodeHazardClass>2</PFCodeHazardClass>
+          <HMType>a</HMType>
+          <RadioActive>N</RadioActive>
+          <Curies>0</Curies>
+          <PhysicalState>b</PhysicalState>
+          <LargestContainer>0</LargestContainer>
+          <FHCFire>Y</FHCFire>
+          <FHCReactive>N</FHCReactive>
+          <FHCPressureRelease>N</FHCPressureRelease>
+          <FHCAcuteHealth>Y</FHCAcuteHealth>
+          <FHCChronicHealth>N</FHCChronicHealth>
+          <AverageDailyAmount>5000</AverageDailyAmount>
+          <MaximumDailyAmount>10000</MaximumDailyAmount>
+          <Units>a</Units>
+          <DaysOnSite>365</DaysOnSite>
+          <SCAboveGroundTank>N</SCAboveGroundTank>
+          <SCUnderGroundTank>Y</SCUnderGroundTank>
+          <SCTankInsideBuilding>N</SCTankInsideBuilding>
+          <StoragePressure>a</StoragePressure>
+          <StorageTemperature>a</StorageTemperature>
+          <HC1EHS>N</HC1EHS>
+          <HC2EHS>N</HC2EHS>
+          <HC3EHS>N</HC3EHS>
+          <HC4EHS>N</HC4EHS>
+          <HC5EHS>N</HC5EHS>
+          <DOTHazardClassificationID>3</DOTHazardClassificationID>
+          <ChemicalRegulatorKey>HZ0016350</ChemicalRegulatorKey>
+          <CERSUniqueKey>bf2c09c3-5b4b-4f82-a814-7447ea35a63d</CERSUniqueKey>
+        </Chemical>
+      </Chemicals>
+      <SiteMaps>
+        <SiteMap>
+          <SiteMapDocument>
+            <Attachments>
+              <Attachment>
+                <AttachmentFileName>Baker Hughes mcf_siteplan-1.pdf</AttachmentFileName>
+                <DocumentTitle><![CDATA[Annotated Site Map (Official Use Only)]]></DocumentTitle>
+                <DocumentDescription />
+                <DateAuthored>2013-12-30T08:00:00Z</DateAuthored>
+                <DocumentRegulatorKey>2cebddcb-5218-47ae-bf95-2ee99d9d9a0a</DocumentRegulatorKey>
+                <CERSUniqueKey>7e71dec5-fccf-425d-80ad-4156a2610dda</CERSUniqueKey>
+              </Attachment>
+            </Attachments>
+          </SiteMapDocument>
+        </SiteMap>
+      </SiteMaps>
+    </HazardousMaterialsInventory>
+    <EmergencyResponseTrainingPlans>
+      <SubmittalElementHeader>
+        <SubmittedOn>2014-01-01T21:26:23Z</SubmittedOn>
+        <SubmittedByFirstName><![CDATA[Bruce]]></SubmittedByFirstName>
+        <SubmittedByLastName><![CDATA[Hinsley]]></SubmittedByLastName>
+        <SubmittedByEmail><![CDATA[bruce@advancedcompliance.us]]></SubmittedByEmail>
+        <RegulatorCode>1500</RegulatorCode>
+        <SubmittalStatus>4</SubmittalStatus>
+        <SubmittalActionDetails>
+          <SubmittalActionOn>2014-01-03T23:18:57Z</SubmittalActionOn>
+          <SubmittalActionAgentName><![CDATA[KORINB]]></SubmittalActionAgentName>
+          <SubmittalActionAgentEmail><![CDATA[KORINB]]></SubmittalActionAgentEmail>
+          <SubmittalActionComments></SubmittalActionComments>
+        </SubmittalActionDetails>
+        <CERSUniqueKey>ef8c0e04-4068-4d81-b6c6-4a21c21cb688</CERSUniqueKey>
+      </SubmittalElementHeader>
+      <EmergencyResponseContingencyPlans>
+        <EmergencyResponseContingencyPlan>
+          <EmergencyResponseContingencyPlanDocument>
+            <Attachments>
+              <Attachment>
+                <AttachmentFileName>Baker Hughes CONSOLIDATED CONTINGENCY PLAN Signed.pdf</AttachmentFileName>
+                <DocumentTitle><![CDATA[Emergency Response/Contingency Plan]]></DocumentTitle>
+                <DocumentDescription />
+                <DateAuthored>2014-01-01T08:00:00Z</DateAuthored>
+                <DocumentRegulatorKey>9b756f52-fe5c-4472-96f5-e7d31530d6f9</DocumentRegulatorKey>
+                <CERSUniqueKey>f14ba616-2c3f-492e-8e0e-450cc3faf856</CERSUniqueKey>
+              </Attachment>
+            </Attachments>
+          </EmergencyResponseContingencyPlanDocument>
+        </EmergencyResponseContingencyPlan>
+      </EmergencyResponseContingencyPlans>
+      <EmployeeTrainingPlans>
+        <EmployeeTrainingPlan>
+          <EmployeeTrainingPlanDocument>
+            <Attachments>
+              <Attachment>
+                <AttachmentFileName>Baker Hughes 3EMPLOYEETRAININGPLANREQUIREMENTSANDTEMPLATE.pdf</AttachmentFileName>
+                <DocumentTitle><![CDATA[Employee Training Plan]]></DocumentTitle>
+                <DocumentDescription />
+                <DateAuthored>2013-12-30T08:00:00Z</DateAuthored>
+                <DocumentRegulatorKey>ac17cae9-14ac-4642-a5bf-9ca06380a528</DocumentRegulatorKey>
+                <CERSUniqueKey>5757c770-7186-4904-b7ee-144c4982b769</CERSUniqueKey>
+              </Attachment>
+            </Attachments>
+          </EmployeeTrainingPlanDocument>
+        </EmployeeTrainingPlan>
+      </EmployeeTrainingPlans>
+    </EmergencyResponseTrainingPlans>
+    <UndergroundStorageTanks>
+      <SubmittalElementHeader>
+        <SubmittedOn>2014-01-01T21:26:23Z</SubmittedOn>
+        <SubmittedByFirstName><![CDATA[Bruce]]></SubmittedByFirstName>
+        <SubmittedByLastName><![CDATA[Hinsley]]></SubmittedByLastName>
+        <SubmittedByEmail><![CDATA[bruce@advancedcompliance.us]]></SubmittedByEmail>
+        <RegulatorCode>1500</RegulatorCode>
+        <SubmittalStatus>4</SubmittalStatus>
+        <SubmittalActionDetails>
+          <SubmittalActionOn>2014-01-03T23:18:51Z</SubmittalActionOn>
+          <SubmittalActionAgentName><![CDATA[KORINB]]></SubmittalActionAgentName>
+          <SubmittalActionAgentEmail><![CDATA[KORINB]]></SubmittalActionAgentEmail>
+          <SubmittalActionComments></SubmittalActionComments>
+        </SubmittalActionDetails>
+        <CERSUniqueKey>fd64be28-5bb5-4a29-8eff-ed6fdc784a91</CERSUniqueKey>
+      </SubmittalElementHeader>
+      <USTFacilityInformation>
+        <TypeOfAction>5</TypeOfAction>
+        <FacilityType>1</FacilityType>
+        <TotalUSTAtFacility>1</TotalUSTAtFacility>
+        <IndianOrTrustLand>N</IndianOrTrustLand>
+        <POName><![CDATA[Baker Hughes Oilfield Operations, Inc.]]></POName>
+        <POPhone>(713) 879-1646</POPhone>
+        <POMailingAddress><![CDATA[17021 Aldine Westfield]]></POMailingAddress>
+        <POCity><![CDATA[Houston]]></POCity>
+        <POState>TX</POState>
+        <POZipCode>77382</POZipCode>
+        <POCountry>United States</POCountry>
+        <TOwnerName><![CDATA[Baker Hughes Oilfield Operations, Inc.]]></TOwnerName>
+        <TOwnerPhone>(713) 879-1646</TOwnerPhone>
+        <TOwnerMailingAddress><![CDATA[17021 Aldine Westfield]]></TOwnerMailingAddress>
+        <TOwnerCity><![CDATA[Houston]]></TOwnerCity>
+        <TOwnerState>TX</TOwnerState>
+        <TOwnerZipCode>77382</TOwnerZipCode>
+        <TOwnerCountry>United States</TOwnerCountry>
+        <TOwnerType>8</TOwnerType>
+        <BOENumber>44031088</BOENumber>
+        <FRCodeSelfInsured>N</FRCodeSelfInsured>
+        <FRCodeGuarantee>N</FRCodeGuarantee>
+        <FRCodeInsurance>N</FRCodeInsurance>
+        <FRCodeSuretyBond>N</FRCodeSuretyBond>
+        <FRCodeCreditLetter>N</FRCodeCreditLetter>
+        <FRCodeExemption>N</FRCodeExemption>
+        <FRCodeStateFundCFOLetter>Y</FRCodeStateFundCFOLetter>
+        <FRCodeStateFundCD>N</FRCodeStateFundCD>
+        <FRCodeLGMechanism>N</FRCodeLGMechanism>
+        <PermitHolderInfo>5</PermitHolderInfo>
+        <DateCertified>2013-12-25</DateCertified>
+        <ApplicantPhone>661-706-4321</ApplicantPhone>
+        <ApplicantName><![CDATA[Bruce W. Hinsley]]></ApplicantName>
+        <ApplicantTitle><![CDATA[Contractor]]></ApplicantTitle>
+        <TankOperatorName><![CDATA[Baker Hughes Oilfield Operations, Inc.]]></TankOperatorName>
+        <TankOperatorPhone>(713) 879-1646</TankOperatorPhone>
+        <TankOperatorMailingAddress><![CDATA[17021 Aldine Westfield]]></TankOperatorMailingAddress>
+        <TankOperatorCity><![CDATA[Houston]]></TankOperatorCity>
+        <TankOperatorState>TX</TankOperatorState>
+        <TankOperatorZipCode>77382</TankOperatorZipCode>
+        <TankOperatorCountry>United States</TankOperatorCountry>
+        <USTFacilityInformationRegulatorKey>PR0001085</USTFacilityInformationRegulatorKey>
+        <CERSUniqueKey>41d39be5-7eb5-4262-a6d7-fbdf0fe222d8</CERSUniqueKey>
+      </USTFacilityInformation>
+      <USTTanks>
+        <USTTank>
+          <TypeOfAction>5</TypeOfAction>
+          <TankIDNumber>1</TankIDNumber>
+          <TankManufacturer>JOOR</TankManufacturer>
+          <TankConfiguration>1</TankConfiguration>
+          <USTSystemInstalledDate>1987-09-14</USTSystemInstalledDate>
+          <TankCapacityInGallons>10000</TankCapacityInGallons>
+          <NumberOfCompartments>1</NumberOfCompartments>
+          <TankUse>1a</TankUse>
+          <TankContents><![CDATA[03]]></TankContents>
+          <TypeOfTank>02</TypeOfTank>
+          <TankPCConstruction>01</TankPCConstruction>
+          <TankSCConstruction>03</TankSCConstruction>
+          <CPSacrificialAnode>N</CPSacrificialAnode>
+          <CPImpressedCurrent>N</CPImpressedCurrent>
+          <CPIsolation>Y</CPIsolation>
+          <SpillBucketInstalled>Y</SpillBucketInstalled>
+          <StrikerPlateProtectorInstalled>N</StrikerPlateProtectorInstalled>
+          <ContainmentSump>N</ContainmentSump>
+          <OPAVAlarms>N</OPAVAlarms>
+          <OPBallFloat>N</OPBallFloat>
+          <OPFillTubeShutOffValve>Y</OPFillTubeShutOffValve>
+          <OPExempt>N</OPExempt>
+          <PipingSystemType>01</PipingSystemType>
+          <PipingConstruction>2</PipingConstruction>
+          <PWPipingPCConstruction>04</PWPipingPCConstruction>
+          <PWPipingSCConstruction>04</PWPipingSCConstruction>
+          <PTContainmentSump>01</PTContainmentSump>
+          <VPPCConstruction>04</VPPCConstruction>
+          <VPSCConstruction>90</VPSCConstruction>
+          <VRPipingPCConstruction>90</VRPipingPCConstruction>
+          <VRPipingSCConstruction>90</VRPipingSCConstruction>
+          <VPTransitionSumps>90</VPTransitionSumps>
+          <RPPCConstruction>01</RPPCConstruction>
+          <RPSCConstruction>90</RPSCConstruction>
+          <UDCConstructionType>01</UDCConstructionType>
+          <UDCConstructionMaterial>04</UDCConstructionMaterial>
+          <CertifiedDate>2013-12-25</CertifiedDate>
+          <ApplicantName><![CDATA[Bruce W. Hinsley]]></ApplicantName>
+          <ApplicantTitle><![CDATA[Contractor]]></ApplicantTitle>
+          <USTTankRegulatorKey>TA0010289</USTTankRegulatorKey>
+          <CERSUniqueKey>f8ad6436-6278-4622-b809-a89c7fc9c55f</CERSUniqueKey>
+          <MonitoringPlan>
+            <MonitoringEquipmentServiced>01</MonitoringEquipmentServiced>
+            <SitePlotPlanSubmitted>2</SitePlotPlanSubmitted>
+            <ContinuousElectronicTankMonitoring>
+              <TankSecondaryContainmentSystem>01</TankSecondaryContainmentSystem>
+              <EMPManufacturer><![CDATA[Veeder-Root]]></EMPManufacturer>
+              <EMPModelNumber><![CDATA[TLS-350]]></EMPModelNumber>
+              <LeakSensorManufacturer><![CDATA[Veeder-Root]]></LeakSensorManufacturer>
+              <LeakSensorModelNum><![CDATA[794390-420]]></LeakSensorModelNum>
+            </ContinuousElectronicTankMonitoring>
+            <MonthlyStatisticalInventoryReconciliation>N</MonthlyStatisticalInventoryReconciliation>
+            <PipeContinuousMonitoring>
+              <PipingSecondaryContainment>01</PipingSecondaryContainment>
+              <PanelManufacturer><![CDATA[N/A]]></PanelManufacturer>
+              <PanelModelNum><![CDATA[N/A]]></PanelModelNum>
+              <PipeLeakSensorManufacturer><![CDATA[Beaudreau]]></PipeLeakSensorManufacturer>
+              <PipeLeakSensorModel><![CDATA[404/406]]></PipeLeakSensorModel>
+              <LeakAlarmTriggPumpShutdown>Y</LeakAlarmTriggPumpShutdown>
+              <FailureTriggPumpShutdown>Y</FailureTriggPumpShutdown>
+            </PipeContinuousMonitoring>
+            <MechanicalLineLeakDetector>
+              <MLLDManufacturer><![CDATA[Redjacket]]></MLLDManufacturer>
+              <MLLDModel><![CDATA[PLD]]></MLLDModel>
+            </MechanicalLineLeakDetector>
+            <SuctionPipingExemptionCriteria>N</SuctionPipingExemptionCriteria>
+            <NoRegulatedPipingPerHealthSafetyCode>N</NoRegulatedPipingPerHealthSafetyCode>
+            <UDCMonitoring>1</UDCMonitoring>
+            <UnderDispenserPanelManufacturer><![CDATA[N/A]]></UnderDispenserPanelManufacturer>
+            <UnderDispenserModelPanelModelNum><![CDATA[N/A]]></UnderDispenserModelPanelModelNum>
+            <UnderDispenserLeakSensorManufacturer><![CDATA[Beaudreau]]></UnderDispenserLeakSensorManufacturer>
+            <UnderDispenserModelOfLeakSensor><![CDATA[404/406]]></UnderDispenserModelOfLeakSensor>
+            <UDCDetectionOfLeak>N</UDCDetectionOfLeak>
+            <UDCLeakAlarmTriggShutdown>Y</UDCLeakAlarmTriggShutdown>
+            <UDCFailureTriggShutdown>Y</UDCFailureTriggShutdown>
+            <UDCMonitoringStopFlow>Y</UDCMonitoringStopFlow>
+            <UDCConstruction><![CDATA[1]]></UDCConstruction>
+            <ELDTesting>N</ELDTesting>
+            <SecondaryContainmentTesting>Y</SecondaryContainmentTesting>
+            <SpillBucketTesting>Y</SpillBucketTesting>
+            <AlarmLogs>Y</AlarmLogs>
+            <VisualInspectionRecords>Y</VisualInspectionRecords>
+            <TankIntegrityTestingResults>N</TankIntegrityTestingResults>
+            <SIRTestingResults>N</SIRTestingResults>
+            <TankGaugingResults>N</TankGaugingResults>
+            <ATGTestingResults>N</ATGTestingResults>
+            <CorrosionProtectionLogs>N</CorrosionProtectionLogs>
+            <EquipmentMaintenanceCalibrationRecords>Y</EquipmentMaintenanceCalibrationRecords>
+            <USTPersonnelFamiliarTraining>Y</USTPersonnelFamiliarTraining>
+            <USTMonitoringPlan>Y</USTMonitoringPlan>
+            <OperatingManuals>N</OperatingManuals>
+            <CAUSTRegulations>N</CAUSTRegulations>
+            <CAUSTLaw>N</CAUSTLaw>
+            <SWRCBHandbook>N</SWRCBHandbook>
+            <SWRCBPublicationAutomaticTankGauging>N</SWRCBPublicationAutomaticTankGauging>
+            <TrainingOther>N</TrainingOther>
+            <DesignatedOperatorTraining>Y</DesignatedOperatorTraining>
+            <FirstNameResponsibility><![CDATA[Josh Morrissette ]]></FirstNameResponsibility>
+            <FirstTitleResponsibility><![CDATA[Environmental Programs Manager]]></FirstTitleResponsibility>
+            <SignatureRepresentation><![CDATA[03]]></SignatureRepresentation>
+            <SignatureDate>2013-12-25</SignatureDate>
+            <ApplicantName><![CDATA[Bruce W. Hinsley]]></ApplicantName>
+            <ApplicantTitle><![CDATA[Contractor]]></ApplicantTitle>
+            <CERSUniqueKey>b25e5ff4-174e-46a5-b5dc-c2b0dd0086bd</CERSUniqueKey>
+          </MonitoringPlan>
+        </USTTank>
+      </USTTanks>
+      <USTCertificationOfFinancialResponsibilityDocuments>
+        <USTCertificationOfFinancialResponsibilityDocument>
+          <Attachments>
+            <Attachment>
+              <AttachmentFileName>Baker Hughes Federal Financial Test (2-29-12).pdf</AttachmentFileName>
+              <DocumentTitle><![CDATA[UST Certification of Financial Responsibility]]></DocumentTitle>
+              <DocumentDescription />
+              <DateAuthored>2014-01-01T08:00:00Z</DateAuthored>
+              <DocumentRegulatorKey>095f4cd4-58e8-4681-b9d3-1ad5ede16105</DocumentRegulatorKey>
+              <CERSUniqueKey>348a2699-1c7f-446a-9101-6144e3479cf5</CERSUniqueKey>
+            </Attachment>
+          </Attachments>
+        </USTCertificationOfFinancialResponsibilityDocument>
+      </USTCertificationOfFinancialResponsibilityDocuments>
+      <USTMonitoringSitePlanDocuments>
+        <USTMonitoringSitePlanDocument>
+          <Attachments>
+            <Attachment>
+              <AttachmentFileName>Baker Hughes mcf_siteplan-1.pdf</AttachmentFileName>
+              <DocumentTitle><![CDATA[UST Monitoring Site Plan]]></DocumentTitle>
+              <DocumentDescription />
+              <DateAuthored>2013-12-30T08:00:00Z</DateAuthored>
+              <DocumentRegulatorKey>f02dca83-bef4-4cd6-9fb8-96292dbace7e</DocumentRegulatorKey>
+              <CERSUniqueKey>3d0e30a1-d5fc-4004-9b4b-c95976603a3b</CERSUniqueKey>
+            </Attachment>
+          </Attachments>
+        </USTMonitoringSitePlanDocument>
+      </USTMonitoringSitePlanDocuments>
+      <USTResponsePlanDocuments>
+        <USTResponsePlanDocument>
+          <Attachments>
+            <Attachment>
+              <AttachmentFileName>Baker Hughes Response Plan Signed.pdf</AttachmentFileName>
+              <DocumentTitle><![CDATA[UST Response Plan]]></DocumentTitle>
+              <DocumentDescription />
+              <DateAuthored>2013-12-30T08:00:00Z</DateAuthored>
+              <DocumentRegulatorKey>294d159c-8151-40ee-b62a-d3814bdc422d</DocumentRegulatorKey>
+              <CERSUniqueKey>a212eb43-1729-4777-95d6-df4e67541a58</CERSUniqueKey>
+            </Attachment>
+          </Attachments>
+        </USTResponsePlanDocument>
+      </USTResponsePlanDocuments>
+      <USTLetterFromCFODocuments>
+        <USTLetterFromCFODocument>
+          <Attachments>
+            <Attachment>
+              <AttachmentFileName>Baker Hughes Federal Financial Test (2-29-12).pdf</AttachmentFileName>
+              <DocumentTitle><![CDATA[UST Letter from the Chief Financial Officer]]></DocumentTitle>
+              <DocumentDescription />
+              <DateAuthored>2013-12-30T08:00:00Z</DateAuthored>
+              <DocumentRegulatorKey>e99c5f64-7a0e-438d-ac77-615a345f6c81</DocumentRegulatorKey>
+              <CERSUniqueKey>f894ac2c-0ef7-4dac-af14-538f5551128b</CERSUniqueKey>
+            </Attachment>
+          </Attachments>
+        </USTLetterFromCFODocument>
+      </USTLetterFromCFODocuments>
+      <USTStatementOfDesignatedOperatorUnderstandingOfComplianceDocuments>
+        <USTStatementOfDesignatedOperatorUnderstandingOfComplianceDocument>
+          <Attachments>
+            <Attachment>
+              <AttachmentFileName>Baker Hughes Signed D.O..pdf</AttachmentFileName>
+              <DocumentTitle><![CDATA[Owner Statement of Designated UST Operator Compliance]]></DocumentTitle>
+              <DocumentDescription />
+              <DateAuthored>2013-12-30T08:00:00Z</DateAuthored>
+              <DocumentRegulatorKey>0442a5cf-297d-4820-8675-c66a70579ae6</DocumentRegulatorKey>
+              <CERSUniqueKey>e626ce13-6552-457c-9054-113ec251e699</CERSUniqueKey>
+            </Attachment>
+          </Attachments>
+        </USTStatementOfDesignatedOperatorUnderstandingOfComplianceDocument>
+      </USTStatementOfDesignatedOperatorUnderstandingOfComplianceDocuments>
+    </UndergroundStorageTanks>
+  </FacilitySubmittal>
+</cers:RegulatorFacilitySubmittals>

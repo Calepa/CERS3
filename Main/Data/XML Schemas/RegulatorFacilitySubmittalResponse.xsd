@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2013 rel. 2 sp1 (x64) (http://www.altova.com) by Mike Reagan (Air Resources Board) -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:cers="http://cersservices.calepa.ca.gov/Schemas/RegulatorFacilitySubmittalResponse/1/06/" targetNamespace="http://cersservices.calepa.ca.gov/Schemas/RegulatorFacilitySubmittalResponse/1/06/" elementFormDefault="unqualified" attributeFormDefault="unqualified">
+	<xs:annotation>
+		<xs:documentation>
+This XSD schema is generated as a response by Facility Submittals Response and Summary endpoints.
+</xs:documentation>
+	</xs:annotation>
+	<xs:element name="RegulatorFacilitySubmittalResponse" type="cers:RegulatorFacilitySubmittalResponse"/>
+	<xs:complexType name="RegulatorFacilitySubmittalResponse">
+		<xs:sequence>
+			<xs:element name="Transaction" type="cers:TransactionType"/>
+			<xs:element name="Summary" type="cers:SummaryType" minOccurs="0"/>
+			<xs:element name="EntityKeys" type="cers:EntityKeysType" minOccurs="0"/>
+			<xs:element name="GuidanceMessages" type="cers:GuidanceMessagesType" minOccurs="0"/>
+			<xs:element name="SubmittalElementKeys" minOccurs="0">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="SubmittalElementKey" type="cers:SubmittalElementKeyType" maxOccurs="unbounded"/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+		<xs:attribute name="timeStamp" type="xs:dateTime" use="required"/>
+	</xs:complexType>
+	<xs:complexType name="TransactionType">
+		<xs:sequence>
+			<xs:element name="TransactionKey" type="cers:GUID">
+				<xs:annotation>
+					<xs:documentation>20.0002</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="RegulatorTransactionKey" nillable="true" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>20.0003</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:maxLength value="36"/>
+						<xs:minLength value="0"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="TransactionReceived" type="xs:dateTime">
+				<xs:annotation>
+					<xs:documentation>20.0081</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="TransactionStatus">
+				<xs:annotation>
+					<xs:documentation>20.0082</xs:documentation>
+				</xs:annotation>
+				<xs:complexType>
+					<xs:simpleContent>
+						<xs:extension base="cers:StatusType">
+							<xs:attribute name="queuePosition" type="xs:int" use="optional">
+								<xs:annotation>
+									<xs:documentation>20.0090</xs:documentation>
+								</xs:annotation>
+							</xs:attribute>
+						</xs:extension>
+					</xs:simpleContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="DetailUri" type="xs:anyURI" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>20.0083</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="SummaryType">
+		<xs:sequence>
+			<xs:element name="DataProcessedOn" type="xs:dateTime" nillable="true" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>20.0080</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="ErrorSummary" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>20.0075</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="RequiredSummary" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>20.0119</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="WarningSummary" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>20.0076</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="AdvisorySummary" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>20.0077</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="EntityKeysType">
+		<xs:sequence maxOccurs="unbounded">
+			<xs:element name="EntityKey" type="cers:EntityKeyType"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="EntityKeyType">
+		<xs:sequence>
+			<xs:element name="EntityResource" type="cers:EntityResourceType">
+				<xs:annotation>
+					<xs:documentation>20.0070</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="RegulatorKey" type="cers:RegulatorEntityKeyType" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>20.0003</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="CERSUniqueKey">
+				<xs:annotation>
+					<xs:documentation>20.0074</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="cers:CERSUniqueKeyType"/>
+				</xs:simpleType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="GuidanceMessagesType">
+		<xs:sequence maxOccurs="unbounded">
+			<xs:element name="GuidanceMessage" type="cers:GuidanceMessageType"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="GuidanceMessageType">
+		<xs:simpleContent>
+			<xs:extension base="cers:MessageType">
+				<xs:attribute name="entityResource" type="cers:EntityResourceType" use="optional">
+					<xs:annotation>
+						<xs:documentation>20.0070</xs:documentation>
+					</xs:annotation>
+				</xs:attribute>
+				<xs:attribute name="guidanceCode" type="xs:positiveInteger" use="required">
+					<xs:annotation>
+						<xs:documentation>20.0078</xs:documentation>
+					</xs:annotation>
+				</xs:attribute>
+				<xs:attribute name="level" use="required">
+					<xs:annotation>
+						<xs:documentation>20.0079</xs:documentation>
+					</xs:annotation>
+					<xs:simpleType>
+						<xs:restriction base="cers:MessageLevelType">
+							<xs:enumeration value="Advisory"/>
+							<xs:enumeration value="Required"/>
+							<xs:enumeration value="Warning"/>
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:attribute>
+				<xs:attribute name="regulatorKey" type="cers:RegulatorEntityKeyType" use="optional">
+					<xs:annotation>
+						<xs:documentation>20.0003</xs:documentation>
+					</xs:annotation>
+				</xs:attribute>
+				<xs:attribute name="cersUniqueKey" type="cers:CERSUniqueKeyType" use="optional"/>
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+	<xs:simpleType name="StatusType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="Queued"/>
+			<xs:enumeration value="Accepted"/>
+			<xs:enumeration value="Rejected"/>
+			<xs:enumeration value="ErrorProcessing"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="MessageLevelType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="Advisory"/>
+			<xs:enumeration value="Required"/>
+			<xs:enumeration value="Warning"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="KeyItemType">
+		<xs:restriction base="xs:string"/>
+	</xs:simpleType>
+	<xs:simpleType name="MessageType">
+		<xs:restriction base="xs:string"/>
+	</xs:simpleType>
+	<xs:simpleType name="RegulatorKeyType">
+		<xs:restriction base="cers:GUID"/>
+	</xs:simpleType>
+	<xs:simpleType name="RegulatorEntityKeyType">
+		<xs:restriction base="xs:string">
+			<xs:maxLength value="36"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="CERSUniqueKeyType">
+		<xs:restriction base="cers:GUID"/>
+	</xs:simpleType>
+	<xs:simpleType name="GUID">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12})|(\{[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}\})"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="EntityResourceType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="BA"/>
+			<xs:enumeration value="BOOI"/>
+			<xs:enumeration value="HMI"/>
+			<xs:enumeration value="FSPM"/>
+			<xs:enumeration value="SM"/>
+			<xs:enumeration value="ERCP"/>
+			<xs:enumeration value="ETP"/>
+			<xs:enumeration value="OHWTF"/>
+			<xs:enumeration value="OHWTU"/>
+			<xs:enumeration value="HWCFA"/>
+			<xs:enumeration value="RMA"/>
+			<xs:enumeration value="RMM"/>
+			<xs:enumeration value="RWCSAN"/>
+			<xs:enumeration value="HWTPPM"/>
+			<xs:enumeration value="TPUPEH"/>
+			<xs:enumeration value="OHWTWECC"/>
+			<xs:enumeration value="HWFACM"/>
+			<xs:enumeration value="TPUTCC"/>
+			<xs:enumeration value="TPUNLAA"/>
+			<xs:enumeration value="TPUNPO"/>
+			<xs:enumeration value="RMDKM"/>
+			<xs:enumeration value="HWTCC"/>
+			<xs:enumeration value="FILRD"/>
+			<xs:enumeration value="USTOPF"/>
+			<xs:enumeration value="USTOPT"/>
+			<xs:enumeration value="USTCIM"/>
+			<xs:enumeration value="USTMP"/>
+			<xs:enumeration value="USTMSP"/>
+			<xs:enumeration value="USTCFR"/>
+			<xs:enumeration value="USTRP"/>
+			<xs:enumeration value="USTOOWA"/>
+			<xs:enumeration value="USTLCFO"/>
+			<xs:enumeration value="USTOSDOC"/>
+			<xs:enumeration value="FILF"/>
+			<xs:enumeration value="HMILRD"/>
+			<xs:enumeration value="ERTPLRD"/>
+			<xs:enumeration value="USTLRD"/>
+			<xs:enumeration value="OHWTNLRD"/>
+			<xs:enumeration value="RMRLRD"/>
+			<xs:enumeration value="RWCANLRD"/>
+			<xs:enumeration value="HWTCCLRD"/>
+			<xs:enumeration value="APSALRD"/>
+			<xs:enumeration value="CALARPLRD"/>
+			<xs:enumeration value="CMEI"/>
+			<xs:enumeration value="CMEE"/>
+			<xs:enumeration value="CMEV"/>
+			<xs:enumeration value="RMOG"/>
+			<xs:enumeration value="RMRD"/>
+			<xs:enumeration value="APSAD"/>
+			<xs:enumeration value="CMEEV"/>
+			<xs:enumeration value="FIMSRD"/>
+			<xs:enumeration value="HMIMSRD"/>
+			<xs:enumeration value="ERTPMSRD"/>
+			<xs:enumeration value="USTMSRD"/>
+			<xs:enumeration value="TPMSRD"/>
+			<xs:enumeration value="RMRMSRD"/>
+			<xs:enumeration value="RWCMSRD"/>
+			<xs:enumeration value="HWTCCMSRD"/>
+			<xs:enumeration value="APSAFI"/>
+			<xs:enumeration value="APSAMSRD"/>
+			<xs:enumeration value="CalARPMSRD"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:complexType name="SubmittalElementKeyType">
+		<xs:sequence>
+			<xs:element name="CERSUniqueKey">
+				<xs:annotation>
+					<xs:documentation>20.0074</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="cers:CERSUniqueKeyType"/>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="SubmittalElementRegulatorKey">
+				<xs:annotation>
+					<xs:documentation>20.0003</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="cers:RegulatorKeyType"/>
+				</xs:simpleType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>

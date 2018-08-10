@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:cers="http://cersservices.calepa.ca.gov/Schemas/DictionaryDataQuery/1/05/" xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://cersservices.calepa.ca.gov/Schemas/DictionaryDataQuery/1/05/" elementFormDefault="unqualified" attributeFormDefault="unqualified">
+	<xs:element name="DictionaryData" type="cers:DictionaryDataType"/>
+	<xs:complexType name="ValueType">
+		<xs:simpleContent>
+			<xs:extension base="xs:string">
+				<xs:attribute name="code" type="xs:string" use="required"/>
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+	<xs:complexType name="ValuesType">
+		<xs:sequence>
+			<xs:element name="Value" type="cers:ValueType" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="DataElementType">
+		<xs:sequence>
+			<xs:element name="Name" type="xs:string"/>
+			<xs:element name="FieldIdentifier" type="xs:string"/>
+			<xs:element name="CERSDataRegistryID" type="xs:decimal"/>
+			<xs:element name="DataStandard" type="xs:string"/>
+			<xs:element name="Section" type="xs:string"/>
+			<xs:element name="Description" type="xs:string"/>
+			<xs:element name="XMLTag" type="xs:string"/>
+			<xs:element name="Instructions" type="xs:string"/>
+			<xs:element name="FieldFormat" type="xs:string"/>
+			<xs:element name="GenericDataType" type="xs:string"/>
+			<xs:element name="DataLength" type="xs:int" nillable="true" minOccurs="0"/>
+			<xs:element name="CERSMinimallyRequiredField" type="xs:boolean"/>
+			<xs:element name="LastUpdated" type="xs:dateTime"/>
+			<xs:element name="Values" type="cers:ValuesType" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="DictionaryDataType">
+		<xs:sequence>
+			<xs:element name="DataElements">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="DataElement" type="cers:DataElementType" minOccurs="0" maxOccurs="unbounded"/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+		<xs:attribute name="dataSetDateTime" type="xs:dateTime" use="required"/>
+	</xs:complexType>
+</xs:schema>

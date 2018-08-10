@@ -1,0 +1,36 @@
+<RegulatorFacilityCreate mode="Trial">
+  <RegulatorTransactionKey >2f60a382-1cde-4e9d-98bd-6cf5ae3a7bfg</RegulatorTransactionKey>
+  <FacilityID >FA0063026</FacilityID>
+  <FacilityRegulatorKey >FA0063026</FacilityRegulatorKey>
+  <EPAID >CA8382292929</EPAID>
+  <FacilityName >Chevron #112</FacilityName>
+  <FacilityAddress >
+    <SiteAddress>4828 N Indianapolis AVE</SiteAddress>
+    <City>DELANO</City>
+    <ZipCode>93215</ZipCode>
+  </FacilityAddress>
+  <SubmittalElements >
+    <FacilityInformation />
+    <HazardousMaterialsInventory regulatorCode="1500" reportingRequirement="1" />
+    <EmergencyResponseTrainingPlans regulatorCode="1500" reportingRequirement="1" />
+    <UndergroundStorageTanks regulatorCode="1500" reportingRequirement="1" />
+    <OnsiteHazardousWasteTreatmentNotification regulatorCode="1500" reportingRequirement="1" />
+    <RecyclableMaterialsReport regulatorCode="1500" reportingRequirement="1" />
+    <RemoteWasteConsolidationsAnnualNotification regulatorCode="1500" reportingRequirement="1" />
+    <HWTankClosureCertification regulatorCode="1500" reportingRequirement="1" />
+    <AbovegroundPetroleumStorageTanks regulatorCode="1500" reportingRequirement="1" />
+  </SubmittalElements>
+  <GeographicInformation >
+    <CERSPoint>
+      <LatitudeMeasure>0000</LatitudeMeasure>
+      <LongitudeMeasure>0000</LongitudeMeasure>
+      <HorizontalAccuracyMeasure>0</HorizontalAccuracyMeasure>
+      <HorizontalCollectionMethod>101</HorizontalCollectionMethod>
+      <GeographicReferencePoint>101</GeographicReferencePoint>
+      <HorizontalReferenceDatum>WGS84</HorizontalReferenceDatum>
+      <DataCollectionDate>2013-12-02</DataCollectionDate>
+    </CERSPoint>
+  </GeographicInformation>
+  <Comments >Testing facility and CE-CL</Comments>
+  <IgnoreExactDuplicateAddressWarning >false</IgnoreExactDuplicateAddressWarning>
+</RegulatorFacilityCreate>

@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:cers="http://cersservices.calepa.ca.gov/Schemas/RegulatorFacilityMetadata/1/06/" xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://cersservices.calepa.ca.gov/Schemas/RegulatorFacilityMetadata/1/06/">
+	<xs:element name="RegulatorFacilityMetadata" type="cers:RegulatorFacilityMetadataType">
+		<xs:annotation>
+			<xs:documentation>Comment describing your root element</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:complexType name="SubmittalElementType">
+		<xs:attribute name="regulatorCode" type="xs:positiveInteger" use="optional">
+			<xs:annotation>
+				<xs:documentation>20.0001</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="reportingRequirement" type="cers:ReportingRequirementType" use="optional">
+			<xs:annotation>
+				<xs:documentation>20.0088</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="nextDueDate" type="cers:Date" use="optional">
+			<xs:annotation>
+				<xs:documentation>20.0087</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+	</xs:complexType>
+	<xs:complexType name="SubmittalElementsType">
+		<xs:sequence>
+			<xs:element name="FacilityInformation" minOccurs="0">
+				<xs:complexType>
+					<xs:attribute name="reportingRequirement" type="cers:ReportingRequirementType" use="optional">
+						<xs:annotation>
+							<xs:documentation>20.0088</xs:documentation>
+						</xs:annotation>
+					</xs:attribute>
+					<xs:attribute name="nextDueDate" type="cers:Date" use="optional">
+						<xs:annotation>
+							<xs:documentation>20.0087</xs:documentation>
+						</xs:annotation>
+					</xs:attribute>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="HazardousMaterialsInventory" type="cers:SubmittalElementType" minOccurs="0"/>
+			<xs:element name="EmergencyResponseTrainingPlans" type="cers:SubmittalElementType" minOccurs="0"/>
+			<xs:element name="UndergroundStorageTanks" type="cers:SubmittalElementType" minOccurs="0"/>
+			<xs:element name="OnsiteHazardousWasteTreatmentNotification" type="cers:SubmittalElementType" minOccurs="0"/>
+			<xs:element name="RecyclableMaterialsReport" type="cers:SubmittalElementType" minOccurs="0"/>
+			<xs:element name="RemoteWasteConsolidationsAnnualNotification" type="cers:SubmittalElementType" minOccurs="0"/>
+			<xs:element name="HWTankClosureCertification" type="cers:SubmittalElementType" minOccurs="0"/>
+			<xs:element name="AbovegroundPetroleumStorageTanks" type="cers:SubmittalElementType" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="CERSGeographicPointLocationDataType">
+		<xs:sequence>
+			<xs:element name="LatitudeMeasure" nillable="false">
+				<xs:annotation>
+					<xs:documentation>21.0001</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:minLength value="4"/>
+						<xs:maxLength value="13"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="LongitudeMeasure" nillable="false">
+				<xs:annotation>
+					<xs:documentation>21.0002</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:minLength value="4"/>
+						<xs:maxLength value="13"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="HorizontalAccuracyMeasure" type="xs:decimal" nillable="false">
+				<xs:annotation>
+					<xs:documentation>21.0003</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="HorizontalCollectionMethod">
+				<xs:annotation>
+					<xs:documentation>21.0004</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:integer">
+						<xs:enumeration value="101"/>
+						<xs:enumeration value="103"/>
+						<xs:enumeration value="104"/>
+						<xs:enumeration value="107"/>
+						<xs:enumeration value="108"/>
+						<xs:enumeration value="109"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="GeographicReferencePoint">
+				<xs:annotation>
+					<xs:documentation>21.0005</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:integer">
+						<xs:enumeration value="101"/>
+						<xs:enumeration value="102"/>
+						<xs:enumeration value="103"/>
+						<xs:enumeration value="108"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="HorizontalReferenceDatum">
+				<xs:annotation>
+					<xs:documentation>21.0006</xs:documentation>
+					<xs:documentation>Typical value is WGS84</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:enumeration value="NAD27"/>
+						<xs:enumeration value="NAD83"/>
+						<xs:enumeration value="WGS84"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="DataCollectionDate" nillable="false">
+				<xs:annotation>
+					<xs:documentation>21.0007</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:date"/>
+				</xs:simpleType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:simpleType name="DateTime">
+		<xs:restriction base="xs:dateTime">
+			<xs:minInclusive value="1985-01-01T00:00:00Z"/>
+			<xs:maxInclusive value="2024-12-31T23:59:59Z"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="Date">
+		<xs:restriction base="xs:date">
+			<xs:minInclusive value="1985-01-01"/>
+			<xs:maxInclusive value="2024-12-31"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="ReportingRequirementType">
+		<xs:restriction base="xs:int">
+			<xs:enumeration value="1"/>
+			<xs:enumeration value="2"/>
+			<xs:enumeration value="3"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="CERSIDType">
+		<xs:restriction base="xs:positiveInteger">
+			<xs:minInclusive value="10000001"/>
+			<xs:maxInclusive value="99999999"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:complexType name="RegulatorFacilityMetadataType">
+		<xs:sequence>
+			<xs:element name="RegulatorTransactionKey" nillable="false" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>20.0003</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:maxLength value="36"/>
+						<xs:minLength value="0"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="CERSID" type="cers:CERSIDType">
+				<xs:annotation>
+					<xs:documentation>1a</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="FacilityID" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>1</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:maxLength value="13"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="FacilityRegulatorKey" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>20.0084</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:maxLength value="36"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="SubmittalElements" type="cers:SubmittalElementsType" minOccurs="0"/>
+			<xs:element name="GeographicInformation" minOccurs="0">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="CERSPoint" type="cers:CERSGeographicPointLocationDataType"/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>
